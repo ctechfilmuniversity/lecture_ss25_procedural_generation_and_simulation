@@ -13,10 +13,10 @@ Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de \
 ## Slides
 
 * [Lecture 01](pgs_01_slides.html)
-
+* [Lecture 02](pgs_02_slides.html)
 
 <!-- 
-* [Lecture 02](pgs_02_slides.html)
+
 * [Lecture 03](pgs_03_slides.html)
 * [Lecture 04](pgs_04_slides.html)
 * [Lecture 05](pgs_05_slides.html)
