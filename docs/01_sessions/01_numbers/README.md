@@ -15,7 +15,7 @@ Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de
 
 This session is due on **Wednesday, April 16th** before class.
 
-This assignment should take <= 4h. If you need longer, please comment on that in your submission.
+This assignment should take <= 4h. 
 
 * [Session 01](#session-01)
     * [Syllabus](#syllabus)
