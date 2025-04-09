@@ -13,6 +13,9 @@ Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de \
 ## Scripts
 
 * [Chapter 01 - Introduction](pgs_01_intro_script.md)
+
+
+<!-- 
 * [Chapter 02 - Unreal](pgs_02_unreal_script.md)
 * [Chapter 03 - Beauty in Maths](pgs_03_mathsbeauty_script.html)
 * [Chapter 04 - Function Design](pgs_04_functions_script.md)
@@ -21,8 +24,5 @@ Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de \
 * [Chapter 07 - Dynamics](pgs_07_dynamics_script.md)
 * [Chapter 08 - Particles](pgs_08_particles_script.md)
 * [Chapter 09 - Fluids](../03_slides/pgs_10_slides.html) (slides only!) 
-
-<!-- 
-
 
 -->
