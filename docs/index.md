@@ -81,10 +81,10 @@ This course introduces participants to procedural and simulation algorithms for 
 |        |         |                 | Function        |
 |        |         |                 | Cellular        |
 | 07.05. | **6**   | Dynamics        | Forces          |
-| 08.05. | **7**   | Agency          | Particles I     |
-| 14.05. | **8**   | Complex Systems | Particles II    |
-| 15.05. | **9**   |                 | tba             |
-| 21.05. |         |                 |                 |
+| 14.05. | **7**   | Agency          | Particles I     |
+| 15.05. | **8**   | Complex Systems | Particles II    |
+| 21.05. | **9**   |                 | tba             |
+| 22.05. |         |                 |                 |
 
 Please note that schedule and topics are under constant development and subject to change!
 
@@ -119,6 +119,7 @@ Unless stated otherwise:
 * For the final project there are approximately **40h** allocated, meaning five days of work.
 * The project should refer to one of the lecture topics. You must come up with your own task.
 * You can also base your project on a tutorial from the internet. The result of the tutorial will not be enough though, you have to develop the project somehow further and make it your own. 
+* The result must be polished.
 * The (hard) deadline for the final project is **July 31st**.
 * The official work period for the final session is June 1st - July 31st. 
     * The deadline for the final project is strict and for a late submission, I reduce **15% of the total points**.
