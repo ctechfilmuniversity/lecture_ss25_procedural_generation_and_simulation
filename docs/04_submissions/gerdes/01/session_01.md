@@ -65,7 +65,7 @@ function branch(start_x, start_y, angle, length, level):
     for split in [-1/4π, 1/4π]:
       branch(end_x, end_y, angle + split, next_length, level + 1)
 ```
-> in a way a fractal (as we saw with mandelbrot) where the result of the previous calculation is recursively input into to the next
+> in a way a fractal (as we saw with mandelbrot) where the result of the previous calculation is recursively input into the next
 
 ### Task 01.04 - Seeing Faces
 
