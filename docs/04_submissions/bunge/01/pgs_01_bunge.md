@@ -1,12 +1,11 @@
 ---
 layout: default
-title: Session
-nav_exclude: true
+title: Submission 1
+nav_order: 1
+has_children: false
 ---
 
-**Task 01: Numbers**
-
----
+## Task 01: Numbers
 
 ### Task 01.01
 
@@ -21,16 +20,14 @@ nav_exclude: true
 
 _Submission_: Answer in your markdown submission file.
 
-## Introduction
-
 ### Task 01.02 - Seeing Patterns
 
-![natural pattern](img/humanpattern.jpg)
-![human made pattern](img/naturpattern.jpg)
+![natural pattern](./img/humanpattern.jpg)
+![human made pattern](./img/naturpattern.jpg)
 
 ### Task 01.03 - Designing Patterns
 
-![drawn pattern](img/pattern.jpg)
+![drawn pattern](./img/pattern.jpg)
 
 ```
 set position to (0, 0, 0)
@@ -53,9 +50,9 @@ repeat 8 times:
 
 ### Task 01.04 - Seeing Faces
 
-![faces1](img/face2.jpg)
-![faces1](img/face1.jpg)
-![faces1](img/face3.jpg)
+![faces1](./img/face2.jpg)
+![faces1](./img/face1.jpg)
+![faces1](./img/face3.jpg)
 
 ### Task 01.05 - Abstraction in Art
 
@@ -63,13 +60,13 @@ I chose two painting I really love as both have different meaning on abstraction
 
 **Dove of Peace. Picasso:**
 
-![dove of peace](img/picasso.jpg)
+![dove of peace](./img/picasso.jpg)
 
 What is the minimal amount needed to represent something? I enjoy the play and thinking of the idea to reduce down to their simplest form. Just enough to express the message.
 
 **Das Eismeer. Caspar David Friedrich:**
 
-![Caspar David Friedrich](img/Eismeer.jpg)
+![Caspar David Friedrich](./img/Eismeer.jpg)
 
 I can’t explain how much I love this painting. To me, it shows emotions in a different way, through shapes and colors. When I look at it, I feel both fear and hope. It’s hard to describe with words.
 
@@ -77,13 +74,15 @@ I can’t explain how much I love this painting. To me, it shows emotions in a d
 
 **Arcane 2. Anomaly**
 
-![Arcane](img/arcane.jpg)
+![Arcane](./img/arcane.jpg)
 
 This way of representing the anomaly in the series Arcane 2 is, first of all, incredibly beautiful in my opinion. Every shot that includes it becomes instantly more captivating—rich in color and full of visual depth. It weaves through the entire series, linking each chapter together. The repetitive pattern it follows creates a sense of rhythm and unity, making it a powerful way to portray 'the universe' in this context. It’s both simple and profound, and it adds a strong visual identity to the whole work.
 
 ## Unreal Engine
 
 ### Task 01.06 - First Steps
+
+![unreal](./img/unreal.gif)
 
 ### Task 01.07 - Multiplication On A Circle With Modulo In Unreal
 
