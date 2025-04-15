@@ -7,23 +7,25 @@ has_children: false
   
 ## Task 01.01
 
-- Which of the chapter topics given in the syllabus are of most interest to you? Why?
+1. Which of the chapter topics given in the syllabus are of most interest to you? Why?
 
 I am most interested in procedural generation in the world of data visualization. The piece Forms by visual artists Memo Akten and Quayola was the most interesting example to me out of everything shown, as I feel they are able to truly capture the essence of a dataset visually. I would like to explore this and perhaps create something in this realm, since I am interested in data visualization and feel that this technique goes beyond the common types of visualizations I have seen.
 
-- Are there any further topics regarding procedural generation and simulation that would interest you?
+2. Are there any further topics regarding procedural generation and simulation that would interest you?
 
 Besides data visualization, I would be interested in looking at procedural generation combined with visceral, more tactile materials. I would be interested in looking at this topic in relation to creating algorithms that allow the creation of some tactile thing—be it something woven, ceramics, or 3D modeling.
 
-- Is there a different tool than Unreal that you would prefer to do the exercises with (e.g. Unreal, Houdini, Unity, Maya, Blender, JavaScript, p5, GLSL, ...)? If so which one, and why?
+3. Is there a different tool than Unreal that you would prefer to do the exercises with (e.g. Unreal, Houdini, Unity, Maya, Blender, JavaScript, p5, GLSL, ...)? If so which one, and why?
 
 No, I am new to this field and have only ever worked with Unity and Maya so I am interested to try Unreal out and see if I prefer it or not.
 
 ## Task 01.02 - Seeing Patterns
 Natural Pattern: 
+
 ![Natural Pattern](./img/leaf.jpg)
 
 Human Pattern:
+
 ![Human Pattern](./img/basket.jpg)
 
 
