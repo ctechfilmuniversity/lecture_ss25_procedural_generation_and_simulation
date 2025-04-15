@@ -33,10 +33,17 @@ Human Pattern:
 
 ![Own Pattern](./img/own_pattern.jpg)
 
+# 
+
 1. Draw a square that is 5cm x 5cm
-2. Start at the top left corner. Drawe a line with the angle of 10 degrees within the square. 
-3. End the line once you reach the next line and then repeat the above process of drawing a line from the end point with an angle of 10 degrees going in a clockwise direction. 
-4. Continue doing this until you run out of space!
+2. Define the square bounds (top-left corner at (0, 0), width = 5cm, height = 5cm)
+3. Set starting point to (0, 0)
+4. Set the angle to 10 degrees
+5. Set the direction to clockwise
+6. While the current point is within the square bounds:
+a. Start at the set starting point (0,0). Draw a line using the current angle (10 degrees) and end the line when you reach the next line.
+b.  Repeat the above process of drawing a line from the end point with an angle of 10 degrees going in the set direction (clockwise).
+c. Continue doing this until you run out of space!
 
 ## Task 01.04 - Seeing Faces
 
