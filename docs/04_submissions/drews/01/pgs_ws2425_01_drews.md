@@ -55,7 +55,18 @@ c. Continue doing this until you run out of space!
 ![Fisherman](./img/fisherman.jpg)
 
 I have always been drawn to the prints by the artist Katsushika Hokusai. This piece, called 冨嶽三十六景　甲州石班沢 | Kajikazawa in Kai Province (Kōshū Kajikazawa), from the series Thirty-six Views of Mount Fuji (Fugaku sanjūrokkei), is particularly interesting to me due to the way he is able to capture so much movement and intensity in a rather mundane scene of a man fishing. In particular, I love his approach to treating water in such a stylised way, reimagining the shape of waves in general while still capturing their chaotic nature. This, in combination with the dramatic movements of the fisherman and the non-realistic depiction of the rocks he is on, amplifies the emotions in the picture, making it feel almost dreamlike. I am inspired by his unique take on everyday objects and the way that stylising them can actually increase the reality of a scene.
-## Task 01.06 - First Steps
+## Task 01.06 
+
+### Abstracted Artistic Expression in CGI
+
+![Landscape](./img/quayola_landscape.png)
+
+I really like this piece by the artist Quayola from his series Landscape Painting. The image above is a screenshot from a short video he made of a tree forming and growing flowers, which you can see here: https://quayola.com/selected-landscape-paintings/.
+
+I really like how he chose to depict the tree in an impressionistic style rather than the realism that CG artists often go for. I feel it captures the feeling of spring even better than if he had made it look realistic.
+This is inspiring to me because the artistic style he chose enhances the emotional impact of the piece, demonstrating how abstraction can often capture the true essence of something more effectively than realism. 
+
+### First Steps
 I chose to complete this tutorial: https://www.youtube.com/watch?v=e_SPuvO_l1w
 
 I was not able to complete the whole thing but I was able to get used to the environment and import a mesh the creator of the turorial had made. In the tutorial they explained how to use the Third Person Games template and add a character to the character there by importing their files and changing the characters texture and add some animations to it. Below is a screen shot of the little village person he made: 
