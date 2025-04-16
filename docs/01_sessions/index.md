@@ -12,7 +12,11 @@ Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de
 
 ## Sessions
 
-* [Session 01 - Introduction & Beauty in Maths](01/README.md)
+* [Session 01 - Introduction & Beauty in Maths](./01_numbers/README.md)
+* [Session 02 - Functions](./02_functions/README.md)
+
+
+
 <!-- 
 * [Session 02 - Functions & Tilings](02/README.md)
 * [Session 03 - Noise](03/README.md)
