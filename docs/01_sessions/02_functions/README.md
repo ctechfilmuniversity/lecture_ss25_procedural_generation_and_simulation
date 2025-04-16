@@ -56,11 +56,11 @@ Create a digital 2D pattern of your liking, e.g. the one you designed for the la
 With this task, I want you to practice **understanding and building individual function designs**. You are free to choose any design and environment you want, as long as it includes the building of a somewhat complex function, which has a visual outcome. Choose the scenario you are interested in and/or helps you in your learning. Your options are: 
 
 * GLSL fragment shader
-    * See the [GLSL examples](./glsl/examples/)
+    * See the [GLSL examples](https://github.com/ctechfilmuniversity/lecture_ss25_procedural_generation_and_simulation/tree/main/docs/01_sessions/02_functions/glsl/examples)
 * Unreal Material Node Network
-    * See the [Unreal scene](./unreal/pgs_ss252_functions.zip) -> `M_pattern_circles_nodes`
+    * See the [Unreal scene](https://github.com/ctechfilmuniversity/lecture_ss25_procedural_generation_and_simulation/tree/main/docs/01_sessions/02_functions/unreal) -> `M_pattern_circles_nodes`
 * Unreal Material Custom Node + HLSL
-  * See the [Unreal scene](./unreal/pgs_ss252_functions.zip -> `M_pattern_circles_hlsl`
+  * See the [Unreal scene](https://github.com/ctechfilmuniversity/lecture_ss25_procedural_generation_and_simulation/tree/main/docs/01_sessions/02_functions/unreal) -> `M_pattern_circles_hlsl`
 
  
 
