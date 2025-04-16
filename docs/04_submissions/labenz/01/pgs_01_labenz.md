@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Submission 1
-nav_order: 1
-has_children: false
+title: Session
+nav_exclude: true
 ---
 
 # Task 01.01
