@@ -10,10 +10,10 @@ use_math: true
 Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de \| Film University Babelsberg KONRAD WOLF
 
 
-# Chapter 03 - Beauty in Maths
+# Beauty in Maths
 
 * [Procedural Generation and Simulation](#procedural-generation-and-simulation)
-* [Chapter 03 - Beauty in Maths](#chapter-03---beauty-in-maths)
+* [Beauty in Maths](#beauty-in-maths)
     * [Topics](#topics)
     * [Learning Objectives](#learning-objectives)
         * [Euler's Identity](#eulers-identity)

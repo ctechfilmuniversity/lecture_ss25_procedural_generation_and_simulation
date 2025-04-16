@@ -97,11 +97,13 @@ Explain briefly what you like about the image and why you consider it to be arti
 
 This task is about installing and getting to know Unreal Engine and the basic functionalities. If you already know Unreal, learn something new about it and summarize it. 
 
-You will need to select a tutorial, or whatever resource you want to use, yourself. We started a collection of tutorials and resources for you in the [Unreal script](../../02_scripts/pgs_02_unreal_script.md), e.g. [First Steps Tutorials](../../02_scripts/pgs_02_unreal_script.md#first-steps-tutorials). You can pick a starter tutorial there, or choose your own one. 
+You will need to select a tutorial, or whatever resource you want to use, yourself. This task has also the indent that you familiarize yourself with the resources out there regarding Unreal. Don't forget to also consider [Epics's Learning Materials](https://dev.epicgames.com/community/unreal-engine/getting-started/games).
+
+We started a collection of tutorials and resources for you in the [Unreal script](../../02_scripts/pgs_02_unreal_script.md), e.g. [First Steps Tutorials](../../02_scripts/pgs_02_unreal_script.md#first-steps-tutorials). You can pick a starter tutorial there, or choose your own one. 
 
 We also collected various explanations that we think might be helpful in the [Unreal script](../../02_scripts/pgs_02_unreal_script.md).
   
-You have to submit at least one preview image of the scene that you worked on (for now a screen grab is enough). This can be a really simple scene, e.g. just a couple of elements. Even though the scene can be simple, also try to design the scene a bit in whichever visual direction you want.
+You have to submit at least one preview image of the scene that you worked on (for now screenshots are just fine). This can be a really simple scene, e.g. just a couple of elements. Even though the scene can be simple, also try to design the scene a bit in whichever visual direction you want.
   
 
 *Hint:* Make sure to plan in a bit of time for the installation of Unreal as it takes a while.

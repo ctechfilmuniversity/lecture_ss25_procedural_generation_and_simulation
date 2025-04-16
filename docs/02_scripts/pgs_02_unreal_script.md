@@ -136,6 +136,7 @@ Unreal
 
 ### First Steps Tutorials
 
+* [Your First Hour in Unreal Engine 5.2 - Epic](https://dev.epicgames.com/community/learning/courses/3ke/your-first-hour-in-unreal-engine-5-2/vvdk/your-first-hour-in-unreal-engine-5-2-overview)
 * Playlist: [Unreal Engine 5 Beginner Tutorial 2024: Introduction - Bad Decisions Studio](https://www.youtube.com/watch?v=L9qixi858Ag&list=PLIn-yd4vnXbjWeYqU7epakdnVzoysMToy)
     * Explains UE as a rendering tool: [Unreal Engine 5 Beginner Tutorial Part 19: Render Setting & Console Commands - Bad Decisions Studio](https://www.youtube.com/watch?v=lhGweZQIQ6s&list=PLIn-yd4vnXbjWeYqU7epakdnVzoysMToy&index=20)
 * Playlist: [Unreal Engine 5 Beginner Tutorial | Getting Started (2023) - Smart Poly](https://www.youtube.com/watch?v=XRmn-EYt8wI&list=PLncmXJdh4q88DFCEVuGpOY3AGQwBvoQnh&index=1)

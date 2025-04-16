@@ -574,6 +574,11 @@ $y = r \sin{\phi}$
 ]
 
 
+???
+* https://editor.p5js.org/legie/sketches/p7nFMtCEa
+* 
+
+
 
 ---
 .header[Golden Angle | Phyllotaxis]
@@ -601,7 +606,11 @@ $\phi = \tan^{-1}{\left (\frac{y}{x}\right )}$
 ???
   
 
-* TODO: Next term: zeige Herleitung
+* .todo[TODO: zeige Herleitung]
+  
+* https://en.wikipedia.org/wiki/Trigonometry
+* https://en.wikipedia.org/wiki/Pythagorean_theorem
+* https://en.wikipedia.org/wiki/Inverse_trigonometric_functions
 
 
 ---
@@ -682,6 +691,9 @@ Thus, as n increases by one, the position rotates through the golden angle and t
 
 
 * All points are on a curve called the generative spiral (r = √θ), a form of Fermat spiral which winds ever-tighter as it curls outwards.
+* https://graphtoy.com/?f1(x,t)=sqrt(x)&v1=true&f2(x,t)=x&v2=true&f3(x,t)=&v3=false&f4(x,t)=&v4=false&f5(x,t)=&v5=false&f6(x,t)=&v6=false&grid=1&coords=1.0808576275049777,1.8768099227872905,9.917355371900843
+
+
 
 ---
 .header[Golden Angle | Phyllotaxis | Vogel Algorithm]

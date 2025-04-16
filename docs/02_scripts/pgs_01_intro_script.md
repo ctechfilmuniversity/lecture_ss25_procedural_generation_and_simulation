@@ -9,11 +9,11 @@ nav_exclude: true
 Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de \| Film University Babelsberg KONRAD WOLF
 
 
-# Chapter 01 - Introduction
+# Introduction
 
 
 * [Procedural Generation and Simulation](#procedural-generation-and-simulation)
-* [Chapter 01 - Introduction](#chapter-01---introduction)
+* [Introduction](#introduction)
     * [Topics](#topics)
     * [Learning Objectives](#learning-objectives)
     * [Pattern](#pattern)
