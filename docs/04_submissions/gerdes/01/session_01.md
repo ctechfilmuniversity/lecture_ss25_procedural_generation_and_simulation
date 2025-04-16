@@ -83,60 +83,42 @@ function branch(start_x, start_y, angle, length, level):
 
 ### Task 01.05 - Abstraction in Art
 
-Choose one "traditional" painting that is inspirational to you. The image can come from the script or you can refer to any artist or image you like.
+From the lecture, I was particularly fascinated by the idea in **futurism** where the temporal axis of a subject is captured on the canvas (or as a sculpture). Especially when using digital image processing, these abstractions are worth revisiting as a source of inspiration. The concept reminded me of this [video](https://www.youtube.com/watch?v=NSS6yAMZF78) stumbled across a few months ago.
 
-Explain briefly what you like about the painting and how it might inspire you for your own work.
+![](./img/01-05-boccioni.png)
 
-_Submission_: Answer in your markdown submission file and link all images there.
+> Umberto Boccioni, Unique Forms of Continuity in Space (1913)
+
+> Disclaimer: When taking a look into the [historic context](https://en.wikipedia.org/wiki/Futurism#Female_Futurists) an early manifest reveals glorification of violence, misogynistic ideas and militarism as fundamental ideologic building blocks within that movement. All of these are diametrically opposed to my own values and perspectives.
 
 ### Task 01.06 - Abstracted Artistic Expression in CGI
 
-Chose one CG image, which you like and of which you think that it has an artistic quality to it. The image doesn't need to be from the script, again you can choose any CGI image you like (it should use 3D graphics). You can find more examples in the [Summary of Artists](../../02_scripts/pgs_01_intro_script.md#summary-of-artists) section.
+Even though I consider most of the shader projects by [Arsiliath](https://www.instagram.com/arsiliath/) to be artistic through the beautifully complex interactions of different aspects within those visualizations, none of those technically employ traditional 3D graphics and I already mentioned the artist in creative coding one during the last semester. Very close to that come the works by Sage Jenson with some being particularly interesting on a technical level (like [36 points](https://www.sagejenson.com/36points/#07_enmeshed_singularities) which runs in-browser).
 
-Explain briefly what you like about the image and why you consider it to be artistic.
+![](./img/01-06-morris.png)
 
-_Submission_: Answer in your markdown submission file and link all images there.
+> What makes [Morris](https://opticalarts.studio/work/projects/morris) (also co-created by Lukas Vojir among others) artistic to me is that its visual fidelity manages to move past the typical uncanniness seen in most other CG renderings. Even though this is achieved by using photogrammetry and is still not a pixel-perfect copy of real growing flowers in time-lapse, the art direction and presentation creates something that to me stands out among other works.
 
 ## Unreal Engine
 
 ### Task 01.06 - First Steps
 
-This task is about installing and getting to know Unreal Engine and the basic functionalities. If you already know Unreal, learn something new about it and summarize it.
+Since `01.08` requires a thorough understanding of the _Multiplication On A Circle With Modulo_ scene and I have no prior experience with Unreal, I decided to complete the accompanying [tutorial](../../../01_sessions/01_numbers/pgs_tutorial_multicircle/pgs_tutorial_multicircle.md).
 
-You will need to select a tutorial, or whatever resource you want to use, yourself. We started a collection of tutorials and resources for you in the [Unreal script](../../02_scripts/pgs_02_unreal_script.md), e.g. [First Steps Tutorials](../../02_scripts/pgs_02_unreal_script.md#first-steps-tutorials). You can pick a starter tutorial there, or choose your own one.
+While I was able to complete the tutorial, I must say that the controls on Mac (with trackpad only) are close to impossible to use. Despite my hardware being adequate (8GB GPU, Intel i9 CPU, 64GB RAM) this application was clearly not built with laptop (older MacBook in particular) users in mind: Movement is slow and laggy, the ui constantly loses focus when switching windows and even in an almost empty scene things are getting hot and the fans start spinning. For future tasks I will either use university machines or switch to an alternative like Blender or Godot.
 
-We also collected various explanations that we think might be helpful in the [Unreal script](../../02_scripts/pgs_02_unreal_script.md).
-
-You have to submit at least one preview image of the scene that you worked on (for now a screen grab is enough). This can be a really simple scene, e.g. just a couple of elements. Even though the scene can be simple, also try to design the scene a bit in whichever visual direction you want.
-
-_Hint:_ Make sure to plan in a bit of time for the installation of Unreal as it takes a while.
-
-_Submission_: At least one preview image, linked in your markdown submission file.
+![](./img/01-08-circle-tutorial.png)
 
 ## Beauty in Maths
 
-- Re-cap [Chapter 03 - Beauty in Maths](../../02_scripts/pgs_03_mathsbeauty_script.html)
-
-_On a side note:_ This script includes formulas and GitHub's markdown preview will not display them. To read the script with properly set formulas, you have the following options:
-
-- Read the script [online](../../02_scripts/pgs_03_mathsbeauty_script.html) (this links to an online `.html` version of the script - in case you do not see the proper formulas, try refreshing the page, that usually helps, don't ask me why)
-- Download the script folder and open 'pgs_03_mathsbeauty_script.html' locally in your browser.
-- Download the script folder and open 'pgs_03_mathsbeauty_script.md' in Visual Studio Code with the [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) plugin installed. Then the preview of the `.md` within VSCode will render the formulas nicely.
-
 ### Task 01.07 - Multiplication On A Circle With Modulo In Unreal
 
-![](./pgs_tutorial_multicircle/img/pgs_t1_multicircle_02.png)
-
-Deadline for this task: July 31st.
-
-Adjust the final scene of [Tutorial 1: Multiplication On A Circle With Modulo](./pgs_tutorial_multicircle/pgs_tutorial_multicircle.md) and come up with your own visual. It is up to you, whether you build the scene from scratch (which for sure would be the better learning experience) or if you work with the [completed scene](https://github.com/ctechfilmuniversity/lecture_ss24_procedural_generation_and_simulation/blob/main/docs/01_sessions/01/pgs_tutorial_multicircle/pgs_tutorial_multicircle.zip) directly.
-
-_Submission_: At least one preview image (for now screenshots are just fine), linked in your markdown submission file.
+- [ ] deadline for this task: July 31st.
 
 ## Learnings
 
 ### Task 01.08
 
-Summarize your learnings (text or bullet points - whatever you prefer but you must use whole sentences). What was challenging for you in this session? How did you challenge yourself?
-
-_Submission_: Answer in your markdown submission file.
+- Conceptually very simple patterns that can be written in a few lines of code can still unveil a lot of math that can prove to be time-consuming when trying to wrap your head around it.
+- I still cannot fully grasp how complex numbers work in the Mandelbrot example (even though I really tried).
+- Unreal and my laptop don't really get along great. I might have to consider alternatives.
