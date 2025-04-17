@@ -67,6 +67,9 @@ This is the tutorial I did. It is called: **_"Unreal Engine 5 Beginner Tutorial 
 
  [![Unreal Engine 5 Beginner Tutorial Part 1: Installation and Using Templates](https://img.youtube.com/vi/bDUFB1ng00Q/0.jpg)](https://www.youtube.com/watch?v=bDUFB1ng00Q "Unreal Engine 5 Beginner Tutorial Part 1: Installation and Using Templates")
 
+ Here my screenshot:
+ ![alt text](https://github.com/ctechfilmuniversity/lecture_ss25_procedural_generation_and_simulation/blob/88979ff9c98d44a3dcecc08f0d061670e171ce06/docs/04_submissions/Pirazan_Palomar/01/img/7_unreal.png)
+
 # Learnings
 ## Task 01.08
 **_Summarize your learnings (text or bullet points - whatever you prefer but you must use whole sentences). What was challenging for you in this session? How did you challenge yourself?_**
