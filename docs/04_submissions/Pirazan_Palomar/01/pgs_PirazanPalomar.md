@@ -17,10 +17,11 @@ by: David Leonardo Pirazán Palomar
 **_Take at least one picture of a natural pattern and at least one of a man-made one (patterns can be two or three-dimensional). Try to include at least one pattern with self-similarity. Taking pictures with your smartphone is just fine._** 
 
 * **Natural:** 
-  
-    ![alt text]()
+      The root of a palm:
+    ![alt text](https://github.com/ctechfilmuniversity/lecture_ss25_procedural_generation_and_simulation/blob/a3dfacf7db668f915779a19e76022521b28e44f9/docs/04_submissions/Pirazan_Palomar/01/img/1_Tejido%20de%20raiz.png)
 
-    ![alt text]()
+    Palm leave:
+    ![alt text](https://github.com/ctechfilmuniversity/lecture_ss25_procedural_generation_and_simulation/blob/a3dfacf7db668f915779a19e76022521b28e44f9/docs/04_submissions/Pirazan_Palomar/01/img/2_Tejido%20hoja%20palma.png)
 
     This microscopic images were made by Carolina Pachón Venegas, member of the scientific project about the Adaptation of the vegetation to the climate change and the fire in the lower terrains of the Orinoquía at the National University of Colombia.
 
@@ -31,15 +32,15 @@ by: David Leonardo Pirazán Palomar
 
 ## Task 01.03 - Designing Patterns
 **_Create a visual pattern yourself. The pattern must be repetitive and abstracted - and hand-drawn :D. Give pseudo code for its creation algorithm._**
-![alt text]()
+![alt text](https://github.com/ctechfilmuniversity/lecture_ss25_procedural_generation_and_simulation/blob/a3dfacf7db668f915779a19e76022521b28e44f9/docs/04_submissions/Pirazan_Palomar/01/img/3_Mein%20Pattern.jpeg)
 Start with 2 opposite triangles that are slightly crossed. Now repeat the same action but this time the new triangles will move closer, crossing until they reach the half of the first tw0. Ise the nre lateral intersections as an starting point for another 2 triangles, but this time perpendicular to the previous ones. Draw the last 2 triangles by completing the symmetry of the composition.  
 
 ## Task 01.04 - Seeing Faces
 **_As an exercise to see and understand the environment around you (and to have some fun 😊), try to find at least two faces. Link all images in this file._**
 
-![alt text]()
+![alt text](https://github.com/ctechfilmuniversity/lecture_ss25_procedural_generation_and_simulation/blob/a3dfacf7db668f915779a19e76022521b28e44f9/docs/04_submissions/Pirazan_Palomar/01/img/5_Face2.jpeg)
 
-![alt text]()
+![alt text](https://github.com/ctechfilmuniversity/lecture_ss25_procedural_generation_and_simulation/blob/a3dfacf7db668f915779a19e76022521b28e44f9/docs/04_submissions/Pirazan_Palomar/01/img/4_Face1.jpeg)
 
 ## Task 01.05 - Abstraction in Art
 **_Choose one "traditional" painting that is inspirational to you. The image can come from the script or you can refer to any artist or image you like. Explain briefly what you like about the painting and how it might inspire you for your own work._**
