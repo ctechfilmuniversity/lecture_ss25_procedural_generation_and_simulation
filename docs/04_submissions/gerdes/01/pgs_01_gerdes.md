@@ -81,6 +81,10 @@ function branch(start_x, start_y, angle, length, level):
 
 > face three
 
+![](./img/01-04-face-04.png)
+
+> face four
+
 ### Task 01.05 - Abstraction in Art
 
 From the lecture, I was particularly fascinated by the idea in **futurism** where the temporal axis of a subject is captured on the canvas (or as a sculpture). Especially when using digital image processing, these abstractions are worth revisiting as a source of inspiration. The concept reminded me of this [video](https://www.youtube.com/watch?v=NSS6yAMZF78) stumbled across a few months ago.
