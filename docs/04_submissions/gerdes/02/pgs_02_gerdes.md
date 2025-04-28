@@ -4,50 +4,21 @@ title: Session
 nav_exclude: true
 ---
 
-**Procedural Generation and Simulation**  
-
-
-Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de  
-
----
-
-# Session 02 
-
-This session is due on **Wednesday, April 30th** before class.
-
-This assignment should take <= 4h. As this assignment is open-ended, it is up to you to manage your time.
-
-- [Session 02](#session-02)
-  - [Function Designs](#function-designs)
-    - [Task 02.01 - Inspiration](#task-0201---inspiration)
-    - [Task 02.02 - Brick Pattern](#task-0202---brick-pattern)
-    - [Task 02.03 - Pattern Experiments](#task-0203---pattern-experiments)
-  - [Learnings](#learnings)
-    - [Task 02.04](#task-0204)
-
 ## Function Designs
-
 
 ### Task 02.01 - Inspiration
 
-Go to the [shadertoy](https://www.shadertoy.com/) site and browse the examples a bit. Submit the link to at least one example you like (you don't have to understand the code). Think about *what* you like about the example and *why*. You don't have to write anything about that in your submission but be able to explain it in class.
+A while back (and also before reading the [script](../../../02_scripts/pgs_04_functions_script.md#design-goals) and learning that he is actually running shadertoy), I came across [this video](https://www.youtube.com/watch?v=BFld4EBO2RE) describing in great detail how a landscape scene is created step by step entirely inside of a shader.
 
-*On a side note*: shadertoy code does not directly run within the glsl-canvas environment (see Task 2.2).
+[![](./img/02-01-landscape.png)](https://www.shadertoy.com/view/4ttSWf)
 
-*Submission:* Links in your markdown submission file..
+> Landscape Shader by Inigo Quilez (click image to open on shadertoy)
 
+What I find fascinating about this implementation is how far beyond of common uses for shaders this work goes. Not only is the whole scene entirely constructed using math but also the lighting and clouds are computed entirely from scratch. While it runs painfully slow on my machine I still think this a great example to show how far you can (maybe not always should) go with shaders. Inigo Quilez is in general a great source of inspiration as the artist shares some creations with detailed explanations on a [youtube channel](https://www.youtube.com/@InigoQuilez) and [website](https://iquilezles.org/).
 
 ### Task 02.02 - Brick Pattern
 
-Understand the given brick pattern code in the [`brick.frag`](./glsl/brick.frag) file and insert comments explaining for each code line of the brick pattern what it does. 
-
-One cell of the brick pattern is parameterized as follows:
-
-![tex_brick_params](img/tex_brick_params.png)
-
-*Note:* For running the code, install the Visual Studio Code extension [glsl-canvas](https://marketplace.visualstudio.com/items/?itemName=circledev.glsl-canvas). With this plugin, you can display a `.frag` fragment shader file directly in VSCode. For rendering, select from VSCode's Command Palette the command `Show glslCanvas`.
-
-*Submission:* Submit commented copy of the code as `brick_lastname.frag` in your assignments folder. 
+Please find the commented [`brick_gerdes.frag`](./src/brick_gerdes.frag) file in the `src` subdirectory.
 
 ### Task 02.03 - Pattern Experiments
 
