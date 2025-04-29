@@ -14,11 +14,11 @@ Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de
 
 * [Session 01 - Introduction & Beauty in Maths](./01_numbers/README.md)
 * [Session 02 - Functions](./02_functions/README.md)
-
+* [Session 03 - Tilings](./03_tilings/README.md)
 
 
 <!-- 
-* [Session 02 - Functions & Tilings](02/README.md)
+
 * [Session 03 - Noise](03/README.md)
 * [Session 04 - Dynamics](04/README.md)
 * [Session 05 - Procedural Dynamics](05/README.md)
