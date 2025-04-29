@@ -87,6 +87,9 @@ void main()
 
 
     //MY COMMENT: 
+    //here smoothStep gives a sooth fade in and out for the bricks edges. The bias
+    //function then defines the brick shape and then lastly the color is blended between the mortar
+    //and brick
     float w = getBias(smoothstep(0.0, mortar_half_norm_w, x), 0.3) 
                 - getBias(smoothstep(1.0 - mortar_half_norm_w, 1.0, x), 0.7);
     float h = getBias(smoothstep(0.0, mortar_half_norm_h, y), 0.3) 
