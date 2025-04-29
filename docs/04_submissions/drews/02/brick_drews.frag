@@ -67,14 +67,16 @@ void main()
 
     // MY COMMENT:
     // Here we floor y which will give us the closest largest integer for its value. 
-    // returns the largest integer less than or equal to a given floating-point number
+    // returns the largest integer less than or equal to a given floating-point number.
+    // If the index is even we add 0.5 to the x coordinate
     float y_index = floor(y);
     if( mod(y_index, 2.0 ) == 0.0)
     {
         x += 0.5;
     }
 
-    // // Here we get rid of the integer part of the number and just get the value of what comes after the decimal point
+    // Here we get rid of the integer part of the number and just get the value of what comes after the decimal point,
+    // which is a number between 0 and 1
     x -= floor(x);
     y -= y_index;
 
@@ -87,11 +89,14 @@ void main()
 
 
     //MY COMMENT: 
-    //here smoothStep gives a sooth fade in and out for the bricks edges. The bias
-    //function then defines the brick shape and then lastly the color is blended between the mortar
+    //Below smoothStep gives a smooth fade in and out for the edges of the mortor. The bias
+    //function then defines the brick shape but changing the gradient and then lastly the color is blended between the mortar
     //and brick
+
+    //this creates smooth edges at the right and left sides of the brick
     float w = getBias(smoothstep(0.0, mortar_half_norm_w, x), 0.3) 
                 - getBias(smoothstep(1.0 - mortar_half_norm_w, 1.0, x), 0.7);
+    // this creates soomth edges at the top and bottom of the brick
     float h = getBias(smoothstep(0.0, mortar_half_norm_h, y), 0.3) 
                 - getBias(smoothstep(1.0 - mortar_half_norm_h, 1.0, y), 0.7);
     
