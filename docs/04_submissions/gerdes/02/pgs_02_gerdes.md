@@ -22,20 +22,13 @@ Please find the commented [`brick_gerdes.frag`](./src/brick_gerdes.frag) file in
 
 ### Task 02.03 - Pattern Experiments
 
-Create a digital 2D pattern of your liking, e.g. the one you designed for the last homework by hand (Task 01.03 ) but this is entirely up to you.  
-  
-With this task, I want you to practice **understanding and building individual function designs**. You are free to choose any design and environment you want, as long as it includes the building of a somewhat complex function, which has a visual outcome. Choose the scenario you are interested in and/or helps you in your learning. Your options are: 
+I started by recreating this [tutorial](https://www.youtube.com/watch?v=51LwM2R_e_o) in [`02-03-pattern-01.frag`](./src/02-03-pattern-01.frag).
 
-* GLSL fragment shader
-    * See the [GLSL examples](https://github.com/ctechfilmuniversity/lecture_ss25_procedural_generation_and_simulation/tree/main/docs/01_sessions/02_functions/glsl/examples)
-* Unreal Material Node Network
-    * See the [Unreal scene](https://github.com/ctechfilmuniversity/lecture_ss25_procedural_generation_and_simulation/tree/main/docs/01_sessions/02_functions/unreal) -> `M_pattern_circles_nodes`
-* Unreal Material Custom Node + HLSL
-  * See the [Unreal scene](https://github.com/ctechfilmuniversity/lecture_ss25_procedural_generation_and_simulation/tree/main/docs/01_sessions/02_functions/unreal) -> `M_pattern_circles_hlsl`
+![](./img/02-03-01.png)
 
- 
+> simple oscillating cairo tiles
 
-*Submission:* At least one image of your resulting pattern (an Unreal screenshot is still fine), linked in your `.md` submission file. If you started with given code or a give setup, briefly explain your changes.
+- [ ] do an example from [book of shaders](https://thebookofshaders.com/)
 
 
 
@@ -44,14 +37,6 @@ With this task, I want you to practice **understanding and building individual f
 
 ### Task 02.04
 
-Summarize your learnings (text or bullet points - whatever you prefer but you must use whole sentences). What was challenging for you in this session? How did you challenge yourself?
-
-*Submission*: Answer in your markdown submission file.  
-
----
-  
-Answer all questions directly in a copy of this file and **also link and display all of your images in that file**. Submit your copy as `pgs_XX_lastname.md` in your submissions folder (replace the XX with the number of the session). 
-
----
-
-**Happy Functioning!**
+- despite all the math shaders can look (and function) slightly differently across platforms (like shadertoy and glsl canvas)
+- how to do symmetry in shaders (see [`02-03-pattern-01.frag, `](./src/02-03-pattern-01.frag))
+- how to repeat patterns in shaders (see [`02-03-pattern-01.frag, l.28`](./src/02-03-pattern-01.frag))
