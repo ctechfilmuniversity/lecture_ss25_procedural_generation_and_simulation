@@ -1,3 +1,10 @@
+---
+layout: default
+title: Session
+nav_exclude: true
+---
+
+
 # Syllabus:
 ## Task 01.01
 by: David Leonardo Pirazán Palomar
