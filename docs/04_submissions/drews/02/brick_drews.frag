@@ -56,20 +56,25 @@ void main()
     // BRICK PATTERN
     // TODO: comment the following steps
 
-    //
+    // MY COMMENT:
+    // here we divide the normalised coordinate value (which have been
+    // normalized according to the screen size) with the brick w and height 
+    // - each one inclides the mortar size (the surrounding outer part of the brick)
     float x = coord.x / brick_mortar_w;
     float y = coord.y / brick_mortar_h;
     // float x = coord.x;
     // float y = coord.y;
 
-    // 
+    // MY COMMENT:
+    // Here we floor y which will give us the closest largest integer for its value. 
+    // returns the largest integer less than or equal to a given floating-point number
     float y_index = floor(y);
     if( mod(y_index, 2.0 ) == 0.0)
     {
         x += 0.5;
     }
 
-    // 
+    // // Here we get rid of the integer part of the number and just get the value of what comes after the decimal point
     x -= floor(x);
     y -= y_index;
 
@@ -81,7 +86,7 @@ void main()
     // float h = smoothstep(0.0, mortar_half_norm_h, y) - smoothstep(1.0 - mortar_half_norm_h, 1.0, y);
 
 
-    //
+    //MY COMMENT: 
     float w = getBias(smoothstep(0.0, mortar_half_norm_w, x), 0.3) 
                 - getBias(smoothstep(1.0 - mortar_half_norm_w, 1.0, x), 0.7);
     float h = getBias(smoothstep(0.0, mortar_half_norm_h, y), 0.3) 
