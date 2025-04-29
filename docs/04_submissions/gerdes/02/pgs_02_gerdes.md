@@ -22,13 +22,18 @@ Please find the commented [`brick_gerdes.frag`](./src/brick_gerdes.frag) file in
 
 ### Task 02.03 - Pattern Experiments
 
-I started by recreating this [tutorial](https://www.youtube.com/watch?v=51LwM2R_e_o) in [`02-03-pattern-01.frag`](./src/02-03-pattern-01.frag).
+I started by recreating this [tutorial](https://www.youtube.com/watch?v=51LwM2R_e_o) in [`02-03-01-tutorial.frag`](./src/02-03-pattern-01.frag). With this I started to experiment with simple animations, basing the angle my lines are drawn in on the `u_time` variable.
 
-![](./img/02-03-01.png)
+![](./img/02-03-01.gif)
 
 > simple oscillating cairo tiles
 
-- [ ] do an example from [book of shaders](https://thebookofshaders.com/)
+Afterwards, I wanted to grasp deeper how the individual components used in the tutorial could be used to create something different or expand upon them. When I tried to recapture how the coordinate system worked I wanted to come up with a way to debug ie. visualize the transformations I used. For this I developed this small test pattern to see clearly what was happening.
+
+
+![](./img/02-03-02.png)
+
+> coordinate visualization
 
 
 
@@ -37,6 +42,9 @@ I started by recreating this [tutorial](https://www.youtube.com/watch?v=51LwM2R_
 
 ### Task 02.04
 
-- despite all the math shaders can look (and function) slightly differently across platforms (like shadertoy and glsl canvas)
-- how to do symmetry in shaders (see [`02-03-pattern-01.frag, `](./src/02-03-pattern-01.frag))
-- how to repeat patterns in shaders (see [`02-03-pattern-01.frag, l.28`](./src/02-03-pattern-01.frag))
+- despite all the math, shaders can look (and function) slightly differently across platforms (like shadertoy and glsl canvas)
+- how to draw a line (see [`02-03-01-tutorial.frag, l.37ff l.44`](./src/02-03-01-tutorial.frag))
+- how to alternate patterns (similar to brick example [`02-03-01-tutorial.frag, l.22f, l.31`](./src/02-03-01-tutorial.frag))
+- an approach to symmetry in shaders (see [`02-03-01-tutorial.frag, `](./src/02-03-01-tutorial.frag))
+- how to repeat patterns in shaders (see [`02-03-01-tutorial.frag, l.28`](./src/02-03-01-tutorial.frag))
+- "debugging" is most easily done using gradients (see [`02-03-02-debugging.frag`](./src/02-03-02-debugging.frag))
