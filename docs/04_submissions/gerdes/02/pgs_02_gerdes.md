@@ -22,28 +22,28 @@ Please find the commented [`brick_gerdes.frag`](./src/brick_gerdes.frag) file in
 
 ### Task 02.03 - Pattern Experiments
 
-I started by recreating this [tutorial](https://www.youtube.com/watch?v=51LwM2R_e_o) in [`02-03-01-tutorial.frag`](./src/02-03-pattern-01.frag). With this I started to experiment with simple animations, basing the angle my lines are drawn in on the `u_time` variable.
+I started by recreating this [tutorial](https://www.youtube.com/watch?v=51LwM2R_e_o) in [`02-03-01-tutorial.frag`](./src/02-03-01-tutorial.frag). With this I started to experiment with simple animations, basing the angle my lines are drawn in on the `u_time` variable.
 
-![](./img/02-03-01.gif)
+[![](./img/02-03-01.gif)](./src/02-03-01-tutorial.frag)
 
-> simple oscillating cairo tiles
+> simple oscillating cairo tiles (click image to open file)
 
 Afterwards, I wanted to grasp deeper how the individual components used in the tutorial could be used to create something different or expand upon them. When I tried to recapture how the coordinate system worked I wanted to come up with a way to debug ie. visualize the transformations I used. For this I developed this small test pattern to see clearly what was happening.
 
 
-![](./img/02-03-02.png)
+[![](./img/02-03-02.png)](./src/02-03-02-debugging.frag)
 
-> coordinate visualization
+> coordinate visualization (click image to open file)
 
 Finally, I started to work on my own pattern utilizing what I learned from the tutorial but focusing on adding animations and a bit more visual interest.
 
-![](./img/02-03-03.gif)
+[![](./img/02-03-03.gif)](./src/02-03-03-pattern.frag)
 
-> happy accident: stumbled across this interesting distorted pattern when I attempted to offset my animation based on flattened cell ids
+> happy accident: stumbled across this interesting distorted pattern when I attempted to offset my animation based on flattened cell ids (click image to open file)
 
-![](./img/02-03-04.gif)
+[![](./img/02-03-04.gif)](./src/02-03-04-pattern.frag)
 
-> my final result
+> my final result (click image to open file)
 
 ## Learnings
 
