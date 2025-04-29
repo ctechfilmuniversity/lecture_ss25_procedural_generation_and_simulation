@@ -35,6 +35,8 @@ Afterwards, I wanted to grasp deeper how the individual components used in the t
 
 > coordinate visualization
 
+Finally, I started to work on my own pattern utilizing what I learned from the tutorial but focusing on adding animations and a bit more visual interest.
+
 ![](./img/02-03-03.gif)
 
 > happy accident: stumbled across this interesting distorted pattern when I attempted to offset my animation based on flattened cell ids
