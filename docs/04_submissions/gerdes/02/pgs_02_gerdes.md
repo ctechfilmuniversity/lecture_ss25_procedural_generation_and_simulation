@@ -35,16 +35,20 @@ Afterwards, I wanted to grasp deeper how the individual components used in the t
 
 > coordinate visualization
 
+![](./img/02-03-03.gif)
 
+> happy accident: stumbled across this interesting distorted pattern when I attempted to offset my animation based on flattened cell ids
 
+![](./img/02-03-04.gif)
+
+> my final result
 
 ## Learnings
 
 ### Task 02.04
 
-- despite all the math, shaders can look (and function) slightly differently across platforms (like shadertoy and glsl canvas)
 - how to draw a line (see [`02-03-01-tutorial.frag, l.37ff l.44`](./src/02-03-01-tutorial.frag))
 - how to alternate patterns (similar to brick example [`02-03-01-tutorial.frag, l.22f, l.31`](./src/02-03-01-tutorial.frag))
-- an approach to symmetry in shaders (see [`02-03-01-tutorial.frag, `](./src/02-03-01-tutorial.frag))
+- an approach to quadrant symmetry in shaders (see [`02-03-01-tutorial.frag, l.30`](./src/02-03-01-tutorial.frag) and [`02-03-02-debugging.frag`](./src/02-03-02-debugging.frag))
 - how to repeat patterns in shaders (see [`02-03-01-tutorial.frag, l.28`](./src/02-03-01-tutorial.frag))
 - "debugging" is most easily done using gradients (see [`02-03-02-debugging.frag`](./src/02-03-02-debugging.frag))
