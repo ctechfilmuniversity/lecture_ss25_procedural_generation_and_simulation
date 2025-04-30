@@ -59,7 +59,7 @@ void main()
     // MY COMMENT:
     // here we divide the normalised coordinate value (which have been
     // normalized according to the screen size) with the brick w and height 
-    // - each one inclides the mortar size (the surrounding outer part of the brick)
+    // - each one includes the mortar size (the surrounding outer part of the brick)
     float x = coord.x / brick_mortar_w;
     float y = coord.y / brick_mortar_h;
     // float x = coord.x;
@@ -67,7 +67,7 @@ void main()
 
     // MY COMMENT:
     // Here we floor y which will give us the closest largest integer for its value. 
-    // returns the largest integer less than or equal to a given floating-point number.
+    // It returns the largest integer less than or equal to a given floating-point number.
     // If the index is even we add 0.5 to the x coordinate
     float y_index = floor(y);
     if( mod(y_index, 2.0 ) == 0.0)
