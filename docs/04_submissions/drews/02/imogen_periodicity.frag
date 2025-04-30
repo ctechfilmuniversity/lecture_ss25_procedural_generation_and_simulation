@@ -7,11 +7,9 @@ uniform vec2 u_resolution;
 
 float wave_triangle(float t, float frequency, float amplitude)
 {
-    //return abs((mod(t * frequency), amplitude) - (0.5 * amplitude));
 
     return abs(mod(t * frequency, amplitude) - (0.5 * amplitude)); // flipping the negative values
     return mod(t * frequency, amplitude) - (0.5 * amplitude); // shifting the values to -0.5..0.5
-    // return mod(t * frequency, amplitude); // 10* 0..1, SAME AS return (t * frequency) - floor(t * frequency);
     return t * frequency; // value between 0..10
 }
 
@@ -19,7 +17,7 @@ float wave_sawtooth(float t, float frequency, float amplitude)
 {
 
     return (t * frequency - floor(t* frequency)) * amplitude;
-    // return (t * frequency) - floor(t * frequency); 
+    
     return floor(t * frequency); // integer value between 0..10 (show with /10.)
     return t * frequency; // value between 0..10
     return t;
