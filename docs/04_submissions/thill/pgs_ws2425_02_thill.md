@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Submission 2
-nav_order: 1
-has_children: false
+title: Session
+nav_exclude: true
 ---
+
 
 ### Task 02.01
 
