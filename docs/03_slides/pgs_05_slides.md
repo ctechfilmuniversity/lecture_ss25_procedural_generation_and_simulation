@@ -30,11 +30,7 @@ layout: false
 
 --
 
-* Tilings
-
---
-
-* Hands-on Unreal example
+* Tilings & the Universe
 
 
 
@@ -331,21 +327,18 @@ Next, let's create the cells...
 The best side for finding shader inspirations is [Shadertoy](https://www.shadertoy.com/) run by Inigo Quilez. ShaderToy is packed with very good examples (but also some bad ones...) and code to steal. Unfortunately, ShaderToy is slightly its own world with different variables namings and core functions. We will come back to the awesomeness that is ShaderToy in the Shader Programming workshop.
 
 
----
-.header[Function Design]
-
-## Design Goals
-
-
-???
-
-Whenever you find function designs that you would like to understand, you should try to find the overall *gist* of the design.
 
 --
 
 *How to find the gist of a function design?*
 
 <br />
+
+
+???
+
+Whenever you find function designs that you would like to understand, you should try to find the overall *gist* of the design.
+
 
 --
 
@@ -1556,6 +1549,8 @@ Many different designs can be derived from the same construction lines by pickin
 
 ## "Fake" Implementation
 
+--
+
 .center[<img src="../02_scripts/img/tilings/islamic_slides_14.png" alt="islamic_slides_14" style="width:42%;">] 
 
 ---
@@ -1664,6 +1659,8 @@ template:inverse
 .header[Sacred Geometry]
 
 ## The Pentagram of Venus
+
+--
 
 .left-even[<img src="../02_scripts/img/tilings/pentagram_of_venus_01.gif" alt="pentagram_of_venus_01" style="width:80%;">  
 .imgref[[[Greg Evans]](http://www.gregegan.net/) [[johncarlosbaez]](https://johncarlosbaez.wordpress.com/2014/01/04/the-pentagram-of-venus/)]
