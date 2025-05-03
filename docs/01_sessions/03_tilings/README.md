@@ -32,7 +32,7 @@ If you are interested, read [Chapter 05 - Tilings](../../02_scripts/pgs_04_tilin
 
 Use the Motion Design Plugin to create a repetitive structure. It doesn't need to be a tiling in its formal sense but also shouldn't be too chaotic, e.g. with noisy particles.
 
-The Plugin is fairly well covered in the [official documentation](https://dev.epicgames.com/documentation/en-us/unreal-engine/motion-design-in-unreal-engine), with the chapter about [Cloners and Effectors](https://dev.epicgames.com/documentation/en-us/unreal-engine/motion-design-cloners-and-effectors-in-unreal-engine) being the most relevant. There are also various YouTube tutorials, e.g. [Unreal Engine 5.5 Motion Design Tutorial: Animators & Shockwave Effector | RedefineFX](https://www.youtube.com/watch?v=KdR1Fjsc8Bo), [Unreal Engine Motion Design ~ Using Multiple Cloners and Effectors](https://www.youtube.com/watch?v=wfbEAfzhTDQ). 
+The Plugin is fairly well covered in the [official documentation](https://dev.epicgames.com/documentation/en-us/unreal-engine/motion-design-in-unreal-engine), with the chapter about [Cloners and Effectors](https://dev.epicgames.com/documentation/en-us/unreal-engine/motion-design-cloners-and-effectors-in-unreal-engine) being the most relevant. There are also various YouTube tutorials, e.g. [Unreal Engine 5.5 Motion Design Tutorial: Animators & Shockwave Effector, RedefineFX](https://www.youtube.com/watch?v=KdR1Fjsc8Bo), [Unreal Engine Motion Design ~ Using Multiple Cloners and Effectors](https://www.youtube.com/watch?v=wfbEAfzhTDQ). 
 
 *Note:* I am having issues with performance and crashes with the plugin. If the plugin doesn't run at all on your computer, please let me know, and we find a solution.
 
