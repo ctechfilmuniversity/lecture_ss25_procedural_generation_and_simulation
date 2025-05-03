@@ -11,20 +11,23 @@ Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de
 
 ---
 
-# Session 03 
+# Session 03  
 
 This session is due on **Wednesday, May 8th** before class.
 
 This assignment should take <= 4h. As this assignment is open-ended, it is up to you to manage your time.
 
 * [Session 03](#session-03)
-        * [Task 03.01 - Tilings (Optional)](#task-0301---tilings-optional)
+    * [Tilings](#tilings)
+        * [Task 03.01 - Script (Optional)](#task-0301---script-optional)
+        * [Task 03.02 - Tilings Implementation](#task-0302---tilings-implementation)
     * [Learnings](#learnings)
         * [Task 03.03](#task-0303)
 
 
+## Tilings
 
-### Task 03.01 - Tilings (Optional)
+### Task 03.01 - Script (Optional)
 
 If you are interested, read [Chapter 05 - Tilings](../../02_scripts/pgs_04_tilings_script.md). 
 
