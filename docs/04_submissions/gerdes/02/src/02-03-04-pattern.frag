@@ -32,13 +32,11 @@ void main(){
     uv=fract(uv)-.5;
     
     vec3 col=vec3(0);
-    // col.g+=uv.x;
-    // col.b+=uv.y;
     
     vec2 p=abs(uv);
     p.x+=oscillate(u_time,0.,.2,.6);
     p.y+=oscillate(u_time,0.,.2,1.2);
-    col+=line(p,oscillate(u_time,.5,1.,2.)*PI+fid,.01,.2);// angle distortion accidentally not locked per cell
+    col+=line(p,oscillate(u_time,.5,1.,2.)*PI+fid,.01,.2);// angle shift locked per cell
     
     gl_FragColor=vec4(col,1.);
     
