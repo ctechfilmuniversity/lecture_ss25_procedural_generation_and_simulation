@@ -8,7 +8,7 @@ nav_exclude: true
 
 ### **Task 03.02 - Tilings Implementation**
 
-![task3_photo.png](./img/task3_photo.png)
+<img src="./img/task3_photo.png" alt="task3 photo" width="400" />
 
 You can view the animations for this piece [here](https://owncloud.gwdg.de/index.php/s/rbyoMMiVDzqvXgy).
 
