@@ -5,22 +5,12 @@ nav_exclude: true
 ---
 
 
-### Task 02.01
+### Task 03.02
 
-[3D Fire by Xor](https://www.shadertoy.com/view/3XXSWS)
+[→Escher_Dragon.mp4](img/03/Escher_Dragon)
 
-<img src=img/02/3D_Fire.gif width="200">
+<img src=img/03/Escher_Dragon.gif width="800">
 
-### Task 02.02
+### Task 03.03
 
-[brick_thill.frag](source/brick_thill.frag)
-
-### Task 02.03
-
-[Ten_print.frag](source/pattern_thill.frag)
-
-<img src=img/02/10_Print.png width="200">
-
-### Task 02.04
-
-I found it difficult to understand the basic functioning of GLSL. I tried to create one of the simpler patterns that I know: the 10-Print pattern. This made it much clearer to me how GLSL code relates to the output image.
+It was quite challenging to create a useful shape for the tessellation. It took me several attempts to get the hang of it. I learnt how to animate texture variables and how to manipulate them using the Cloner plugin in Motion Design. I also discovered some limitations of the Motion Design plugin that I will avoid in future, such as incompatibility with Nanite and bugs.
