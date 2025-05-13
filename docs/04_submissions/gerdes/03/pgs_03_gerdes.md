@@ -20,23 +20,17 @@ As a second intermediary step, I wanted to get into SDFs. Specifically, I tried 
 
 [![](./img/03-02-02.gif)](./src/03-02-02.frag)
 
-> Dancing triangles built using sdf line segments. Even though this is not a tiled pattern, I really like the blur effect created by oscillating the smoothstep distance that is used to draw the sdf shape.
+> Dancing triangles built using sdf line segments. Even though this is not a tiled pattern, I really like the blur effect created by oscillating the smoothstep distance that is used to draw the sdf shape (click image to open shader file)
 
-A tiling is a kind of pattern that when repeated:
+Next, I completed another [tutorial](https://www.youtube.com/watch?v=VmrIDyYiJBA) by Art of Code, explaining how to calculate hexagonal coordinates for tiling. My first idea was to try to use this in combination with tesselation (calculating the bounds around any freeform sdf shape and then offsetting that with the aspect corrected modulo) but I failed to understand how I could, instead of rendering every shape within its tile, generate one connected sdf that would not reveal the seams in between. Maybe I will revisited this idea in a future assignment.
 
-- has `no gaps`
-- has `no overlaps`
+[![](./img/03-02-03.gif)](./src/03-02-03.frag)
+
+> final tiled pattern making use of all learned techniques (click image to open shader file)
 
 ## Learnings
 
 ### Task 03.03
 
-Summarize your learnings (text or bullet points - whatever you prefer). What was challenging for you in this session? How did you challenge yourself?
-
-_Submission_: Answer in your markdown submission file.
-
----
-
-Answer all questions directly in a copy of this file and **also link and display all of your images in that file**. Submit your copy as `pgs_XX_lastname.md` in your submissions folder (replace the XX with the number of the session).
-
----
+- how to draw sdf line segments in a fragment shader
+- how to calculate hexagonal coordinates to be used for tiling
