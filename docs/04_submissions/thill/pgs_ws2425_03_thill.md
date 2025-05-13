@@ -7,7 +7,7 @@ nav_exclude: true
 
 ### Task 03.02
 
-[→Escher_Dragon.mp4](img/03/Escher_Dragon)
+[→Escher_Dragon.mp4](img/03/Escher_Dragon.mp4)
 
 <img src=img/03/Escher_Dragon.gif width="800">
 
