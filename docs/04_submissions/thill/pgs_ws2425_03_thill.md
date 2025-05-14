@@ -9,6 +9,10 @@ nav_exclude: true
 
 [→Escher_Dragon.mp4](img/03/Escher_Dragon.mp4)
 
+<img src=img/03/Escher_Dragon_Sketch.png width="400">
+
+<img src=img/03/Escher_Dragon_Render.jpg width="400">
+
 <img src=img/03/Escher_Dragon.gif width="800">
 
 ### Task 03.03
