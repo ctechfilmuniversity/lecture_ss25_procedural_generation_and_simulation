@@ -50,7 +50,7 @@ This assignment should take <= 4h. As this assignment is open-ended, it is up to
 
 ![finalresultcubes](./tutorial_dancing_cubes/img/finalresultcubes.gif)
 
-Complete [Tutorial *Fancy Cubes*](pgs_t5_dantutorial_dacing_cubescing_cubes/pgs_t5_dancing_cubes.md). Try to make some changes to the result to make it your own. In the end, you must have a good looking result!
+Complete [Tutorial *Fancy Cubes*](tutorial_dancing_cubes/tutorial_dancing_cubes.md). Try to make some changes to the result to make it your own. In the end, you must have a good looking result!
 
 This time, you also have to create a rendering from the scene. For that you can use the [Tutorial Rendering](./tutorial_rendering/tutorial_rendering_rendering.md) (the section about Postprocessing Effects is optional for additional stylization).
 

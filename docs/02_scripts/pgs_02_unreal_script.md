@@ -30,9 +30,11 @@ Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de
         * [Project Organisation](#project-organisation)
         * [Level and Maps](#level-and-maps)
         * [Actors](#actors)
+            * [ChatGPT 4.o "In Unreal Engine \>5, what is an actor?":](#chatgpt-4o-in-unreal-engine-5-what-is-an-actor)
             * [Components](#components)
         * [Material Editor](#material-editor)
         * [Blueprints](#blueprints)
+            * [ChatGPT 4.o "In Unreal Engine \>5, what is a blueprint?":](#chatgpt-4o-in-unreal-engine-5-what-is-a-blueprint)
         * [The Procedural Generation Plugin](#the-procedural-generation-plugin)
             * [Tutorials](#tutorials)
             * [Procedural Workflows](#procedural-workflows)
@@ -227,6 +229,29 @@ An Actor is any object that can be placed into a level, such as a Camera, static
 
 Source: [UE 5.0 Documentation - Components](https://dev.epicgames.com/documentation/en-us/unreal-engine/components-in-unreal-engine?application_version=5.0)
 
+#### ChatGPT 4.o "In Unreal Engine >5, what is an actor?":
+
+In Unreal Engine 5, an Actor is one of the most fundamental classes in the engine — it’s the base class for any object that can be placed or spawned in a level.
+
+Key Points about Actors:
+* Definition: An Actor is a container for components and logic that defines behavior in the world. It exists in the 3D world and has a transform (position, rotation, scale).
+* Examples: Static meshes, lights, cameras, characters, triggers, and custom gameplay objects — all are types of Actors.
+* Components: Actors are made up of Components, like:
+* StaticMeshComponent (for visible geometry),
+* CameraComponent,
+* AudioComponent, etc.
+  
+These components define the functionality and appearance of the Actor.
+* Blueprint or C++: You can create Actors using Blueprints (visual scripting) or in C++ (code-based logic).
+* Types of Actor subclasses include:
+* Pawn – actors that can be controlled by players or AI.
+* Character – a more complex pawn with movement and animation.
+* GameMode, GameState, PlayerController, etc. – special actors for game management.
+
+Summary:  
+  
+An Actor in Unreal Engine 5 is a basic building block of the world — anything that has a presence in a level and can interact with other objects or be manipulated is likely an Actor or derived from it.
+
 
 #### Components
 
@@ -246,7 +271,12 @@ Another important concept is **Material Instances**, which allows to change the 
 
 ### Blueprints
 
-The Blueprint Visual Scripting system in Unreal Engine is a complete gameplay scripting system based on the concept of using a node-based interface to create gameplay elements from within Unreal Editor. As with many common scripting languages, it is used to define object-oriented (OO) classes or objects in the engine.
+A Blueprint is a visual scripting system that allows you to create gameplay mechanics, object behavior, and interactions without writing code from within Unreal Editor. As with many common scripting languages, it is used to define object-oriented (OO) classes or objects in the engine.
+  
+A Blueprint is a visual representation of an Unreal C++ class, allowing you to:
+* Design logic and interactivity using nodes and connections
+* Add components (meshes, lights, sounds, etc.)
+* Override functions and respond to events (e.g., collisions, button presses)
 
 This system is extremely flexible and powerful as it provides the ability for designers to use virtually the full range of concepts and tools generally only available to programmers. In addition, Blueprint-specific markup available in Unreal Engine's C++ implementation enables programmers to create baseline systems that can be extended by designers. 
 
@@ -254,6 +284,12 @@ This system is extremely flexible and powerful as it provides the ability for de
 * [Unreal Engine Blueprints Tutorials – Complete Guide](https://gamedevacademy.org/unreal-blueprints-tutorial/)
 * [Blueprint Variables: What you need to know](https://www.unrealdirective.com/articles/blueprint-variables-what-you-need-to-know)
 * [10 Tips for Blueprint Organization in Unreal Engine](https://www.techarthub.com/10-tips-for-blueprint-organization-in-unreal-engine/)
+
+#### ChatGPT 4.o "In Unreal Engine >5, what is a blueprint?":
+
+
+
+
 
 
 ### The Procedural Generation Plugin

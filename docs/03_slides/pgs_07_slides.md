@@ -59,7 +59,9 @@ layout: false
 
 ## Animation
 
-> Technically animation is the depiction of spatially and temporally varying structures and behavior. 
+--
+
+> Technically, animation is the depiction of spatially and temporally varying structures and behavior. 
 
 --
 
@@ -724,6 +726,8 @@ For particle-based effects
 * Rain
 * Explosions
 ]
+
+--
 
 .right-even[
 <img src="../02_scripts/img/particles/niagara_01.png" alt="niagara_01" style="width:40%;">  <img src="../02_scripts/img/particles/niagara_02.png" alt="niagara_02" style="width:42%;">
