@@ -31,7 +31,7 @@ This assignment should take <= 4h. As this assignment is open-ended, it is up to
 
 ## Noise
 
-* Re-cap [Chapter 06 - Noise](../../02_scripts/pgs_ss23_06_noise_script.md)
+* Re-cap [Chapter 06 - Noise](../../02_scripts/pgs_06_noise_script.md)
 
 
 ## Seeing Noise 

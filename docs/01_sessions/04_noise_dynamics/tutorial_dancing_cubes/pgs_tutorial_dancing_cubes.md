@@ -16,7 +16,7 @@ Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de
 
 The tutorial is based off of the [Unreal Engine 5 - Generative Motion Graphics / VFX](https://www.udemy.com/course/ue5-procedural-vfx-motion-graphics/) tutorial by Yu Fujishiro and is further developed and presented by Sylvia Rybak and Lena.
 
-Most the explanations are copied from or based on the official [Unreal Documentation](https://dev.epicgames.com/documentation/en-us/unreal-engine?application_version=5.3). 
+Most the explanations are copied from or based on the official [Unreal Documentation](https://dev.epicgames.com/documentation/en-us/unreal-engine). 
 
 * [Tutorial - Dancing Cubes](#tutorial---dancing-cubes)
 * [The Algorithm](#the-algorithm)
