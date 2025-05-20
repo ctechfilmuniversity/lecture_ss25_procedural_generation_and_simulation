@@ -18,11 +18,11 @@ nav_exclude: true
 
 ![](./img/noise-natural-02.png)
 
-> this bork reminded me a bit of voronoi noise when looking at the "islands" ([source](https://unsplash.com/photos/a-teddy-bear-sitting-on-the-trunk-of-a-tree-QrDpwcw4hX8))
+> this bork shares a bit of similarity with voronoi noise when looking at the "islands" ([source](https://unsplash.com/photos/a-teddy-bear-sitting-on-the-trunk-of-a-tree-QrDpwcw4hX8))
 
 ![](./img/noise-natural-03.png)
 
-> two noises layered: The dune lines shaped by the wind (maybe also water) and the individual grains providing overall texture ([source](https://unsplash.com/photos/brown-sand-with-shadow-of-person-IfHAeNOOGQ0))
+> two noise layers: the dune lines shaped by the wind (maybe also water) and the individual grains providing overall texture ([source](https://unsplash.com/photos/brown-sand-with-shadow-of-person-IfHAeNOOGQ0))
 
 #### artificial noise
 
@@ -34,13 +34,13 @@ nav_exclude: true
 
 ### Task 04.02 Tutorial Fancy Cubes
 
-![finalresultcubes](./tutorial_dancing_cubes/img/finalresultcubes.gif)
+![](./img/unreal-preview.png)
 
-Complete [Tutorial _Fancy Cubes_](pgs_t5_dantutorial_dacing_cubescing_cubes/pgs_t5_dancing_cubes.md). Try to make some changes to the result to make it your own. In the end, you must have a good looking result!
+> I really liked the glow effect coming from the emission boost on every spit. To emphasize I chose a dark lighting setup.
 
-This time, you also have to create a rendering from the scene. For that you can use the [Tutorial Rendering](./tutorial_rendering/tutorial_rendering_rendering.md) (the section about Postprocessing Effects is optional for additional stylization).
+[![](./img/unreal-animation.gif)](https://owncloud.gwdg.de/index.php/s/AVO7skzVqMeqreZ)
 
-_Submission:_ At least one preview image and one animation, e.g. as gif, of your scene, linked in your markdown submission file
+> click on gif above to download mp4 file
 
 **Notes**
 
@@ -74,4 +74,9 @@ Trying out `WebGPU` to get a feel for what is possible. In line with the require
 
 ### Task 04.04
 
--
+- actors physics settings
+- material instancing
+- first steps with niagara
+- level sequences
+  - camera animation
+  - rendering
