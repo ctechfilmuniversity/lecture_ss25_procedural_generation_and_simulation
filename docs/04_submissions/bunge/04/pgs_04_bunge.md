@@ -23,8 +23,7 @@ Artistic Image:
 
 ### Task 04.02 Tutorial Fancy Cubes
 
-.gif
-![finalresultcubes](./img/Tutorial_DancingCubes.gif)
+You can view the video [here](https://owncloud.gwdg.de/index.php/s/tYWUFPeBw803Lns).
 
 Preview
 ![Preview img Noise Tutorial](./img/CubeSpawn.0367.jpeg)
