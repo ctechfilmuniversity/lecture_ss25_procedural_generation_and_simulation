@@ -4,7 +4,7 @@ title: Session
 nav_exclude: true
 ---
 
-# Task 02: Tilings
+# Task 03: Tilings
 
 First try using the Motion Design Plugin. However, it was painfully slow and I couldn't work with the effectors without unreal crashing :( The idea was to create a tile design using three ducks and then multiplying them.
 
