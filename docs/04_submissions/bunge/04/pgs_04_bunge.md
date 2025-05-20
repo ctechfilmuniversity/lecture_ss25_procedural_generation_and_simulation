@@ -17,7 +17,7 @@ Natural Noise Patterns:
 
 Artistic Image:
 
-- Submit one stylized / artistic image that uses noise as generating principle or design element. You can find it on the internet.
+![Artistic Image](./img/ArtisticImage.jpg)
 
 ## Dynamics
 
