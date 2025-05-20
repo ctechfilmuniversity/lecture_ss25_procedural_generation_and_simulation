@@ -28,6 +28,8 @@ nav_exclude: true
 <img src="./img/unsupervised.png" alt="task3 photo" width="400" />
 </p>
 
+Unsupervised by Refik Anadol
+
 **Dynamics**
 
 **Task 04.02 Tutorial Fancy Cube**
@@ -48,7 +50,7 @@ Learning about blueprint’s was new for me in this session so I learned a whole
 
 - I opted to make the cubes more varied right from the start and randomised the amount of times the cubes break down:
     
-    <p align="center">
+<p align="center">
 <img src="./img/unreal.png" alt="task3 photo" width="400" />
 </p>
     
