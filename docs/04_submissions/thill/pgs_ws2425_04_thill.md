@@ -15,8 +15,14 @@ nav_exclude: true
 
 ### Task 04.02
 
+[→Tutorial_Result](img/04/Tutorial.mp4)
+
 <img src=img/04/Tutorial.gif width="800">
 
 ### Task 04.03
+
+Done
+
+### Task 04.04
 
 I learned about some new nodes in the Tutorial.
