@@ -59,6 +59,7 @@ nav_exclude: true
 > iterate with personal modifications to create something unique
 
 eg. from [this tutorial](https://arsiliath.gumroad.com/l/compute-shaders?layout=profile)
+or [this collection](https://gist.github.com/dmnsgn/76878ba6903cf15789b712464875cfdc)
 
 **Idea 02: Slime Mold**
 
