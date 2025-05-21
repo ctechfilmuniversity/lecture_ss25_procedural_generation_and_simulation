@@ -25,12 +25,13 @@ layout: false
     * Forces
 
 --
-* Particles
-    * Niagara
+* Creating Forces
 
 
 ---
 template: inverse
+
+### Recap
 
 # Chapter Noise
 
@@ -2151,215 +2152,6 @@ class Mover {
 
 
 
----
-template:inverse
-
-# Particle Systems
-
----
-## Particle Systems
-
-
-
-???
-  
-
-* The process of making the particles move is also called *simulation*.  
-* I have already mentioned that with particles we almost always want to work with a dynamic system to make the particles move as we don't want to animate each particle manually.
-* So what are we talking about here exactly?
-
-
---
-
-> A particle system is a collection of many many minute particles that together represent a fuzzy object. Over a period of time, particles are generated into a system, move and change from within the system, and die from the system.  
-  
-— William Reeves, [*Particle Systems—A Technique for Modeling a Class of Fuzzy Objects*](https://dl.acm.org/doi/epdf/10.1145/964967.801167), ACM Transactions on Graphics 2:2 (April 1983), 92.
-
-
-???
-  
-
-* Reeves created [these particle effects](https://www.youtube.com/watch?v=zXFNypyMJCc) in the 80s as the first one to do so.
-
----
-## Particle Systems
-
-.center[<img src="../02_scripts/img/particles/reeves_01.png" alt="reeves_01" style="width:50%;">]
-  
-— William Reeves, [*Particle Systems—A Technique for Modeling a Class of Fuzzy Objects*](https://dl.acm.org/doi/epdf/10.1145/964967.801167), ACM Transactions on Graphics 2:2 (April 1983), 92.
-
-???
-  
-
-* From this quote we can gather that we have a large amount of particles ("many many"), that time ("over a period of time") and movement ("move") matter and that there is some sort of lifecycle ("are generated" and "die").
-* Reeves is famous for his contributions to particle systems, a method used to model fuzzy objects in computer graphics. In this context, a fuzzy object is typically represented by a collection of particles that together create the appearance of a diffuse, soft-edged form. This approach allows for the realistic simulation of complex, dynamic phenomena that are difficult to model using traditional geometric techniques. In summary, when William Reeves refers to a "fuzzy object," he is likely discussing objects that have soft, undefined boundaries, often simulated using particle systems in computer graphics to achieve realistic visual effects for natural phenomena.
-
----
-## Particle Systems
-
-> A particle system is a collection of **many many** minute particles that together represent a fuzzy object.** Over a period of time**, particles are generated into a system, **move** and **change** from within the system, and **die** from the system.  
-  
-— William Reeves, *Particle Systems—A Technique for Modeling a Class of Fuzzy Objects*, ACM Transactions on Graphics 2:2 (April 1983), 92.
-
-???
-  
-
-* From this quote we can gather that we have a large amount of particles ("many many"), that time ("over a period of time") and movement ("move") matter and that there is some sort of lifecycle ("are generated" and "die").
-* Reeves is famous for his contributions to particle systems, a method used to model fuzzy objects in computer graphics. In this context, a fuzzy object is typically represented by a collection of particles that together create the appearance of a diffuse, soft-edged form. This approach allows for the realistic simulation of complex, dynamic phenomena that are difficult to model using traditional geometric techniques. In summary, when William Reeves refers to a "fuzzy object," he is likely discussing objects that have soft, undefined boundaries, often simulated using particle systems in computer graphics to achieve realistic visual effects for natural phenomena.
-
-
----
-## Particle Systems
-
-
-Such systems of *many* things can 
-
---
-* represent a variety of natural systems such as birds flocking, fish schooling, ecosystems evolving, etc., and
-
---
-* model irregular types of natural phenomena auch as fire, smoke, waterfalls, fog, grass, bubbles, etc.
-
-
----
-## Particle Systems
-
-.center[<img src="../02_scripts/img/particles/particles_01.png" alt="particles_01" style="width:50%;">].imgref[[[princeton.edu]](https://www.princeton.edu/news/2013/02/07/birds-feather-track-seven-neighbors-flock-together)]
-
----
-## Particle Systems
-
-.center[<img src="../02_scripts/img/particles/particles_02.png" alt="particles_02" style="width:30%;">] .imgref[[[pinterest]](https://www.pinterest.de/pin/31243791139408749/)]
-
-
-???
-  
-
-* These systems are dynamics systems, often simulating based on insights from physics and based on Newton’s laws of motion about how to apply forces.
-
----
-## Particle Systems
-
-.center[<img src="../02_scripts/img/particles/fire_01.jpg" alt="fire_01" style="width:60%;">] .imgref[[[wallpapercave]](https://wallpapercave.com/w/wp9767060)]
-
-
----
-.header[Particle Systems]
-
-## The System
-
---
-
-A single particle is an independent body that moves. 
-
---
-  
-<br />
-
-For building a system of moving particles, you need:
-
---
-1. A constructor initializing the system
-
---
-2. Computation of acceleration, velocity and position for each particle
-
---
-3. Application of the newly computed values
-
-
---
-Step 2. and 3. are usually executed by your 3D environment. 
-
-
-???
-  
-
-* We will use it in the exercise. If we were in Processing or p5 or such, we would also need to explicitly call a `display()` or render method for the particles in a fourth step.
-
-
-
-
-
----
-.header[Particle Systems | Setup]
-
-## Emitter
-
---
-
-The source of the particles.
-
---
-* A single burst of particles, a continuous stream of particles, or both  
-
---
-* Controls the initial settings of the particles
-  
-
-
-???
-  
-
-* Such as their position, velocity, etc. 
-
-
----
-.header[Particle Systems | Setup]
-
-## Life Cycle
-
-During its life, particles can be controlled in various ways.
-  
-<br />
-
---
-
-After a certain amount of time, particles die of various possible reasons.
-* Collision, running off screen, etc.  
-
---
-  
-<br />
-Particles should have a well defined lifespan!
-
-
-
-???
-  
-
-* In regard to life cycles make sure to actually delete the affected particles. For example (up to my current knowledge), when you work with Processing and objects wander off-screen they continue to exists as normal objects and are recomputed.
-
-
----
-.header[Particle Systems]
-
-## A System of Systems
-
-A particle system is in itself an object.  
-  
---
-  
-As such you can easily build a system of systems of systems of systems of systems...
-
-
-???
-which most effects do
-
---
-
-.left-even[<img src="../02_scripts/img/particles/fireworks.gif" alt="name" style="width:90%;">]
-
---
-
-This principle relates to self-similar structures, fractals, turbulence noise, etc.
-
-
-???
-  
-
-* We have already seen this principles in self-similar structures such as fractals or turbulence noise. But we can find this principle of *nesting* in all aspects of the world. E.g. an organ is a system of cells, a human body is a system of organs, a neighborhood is a system of human bodies, a city is a system of neighborhoods, and so own.
-
 
 
 
@@ -2367,281 +2159,474 @@ This principle relates to self-similar structures, fractals, turbulence noise, e
 ---
 template:inverse
 
-# Niagara
-
+# Creating Forces
 
 ---
-## Niagara
 
-Workflow:
+## Creating Forces
+
+A force is just a vector! 
+  
+**A** = **F / M**
+
+
+???
+
+
+We need to divide the force by the object's mass and add it to the object’s acceleration vector.
 
 --
-* System
+
+<br />
+
+  
+*But how do we get such a force vector?*
+
+--
+* Make up a force
 
 ???
   
 
-* First create a Niagara System in which you can add one or more emitters. You can then set up the properties of each emitter.
+* https://editor.p5js.org/legie/sketches/zL3LSU3tH
+* Well, there are several ways. For one, we can simply make one up for our make-believe pixel worlds (e.g. we do so in the exercise) 🎉.  
 
 --
-* Emitters
+* Model a force according to physics of the real world
 
 ???
   
 
-* In the Niagara Editor, you can adjust your emitter by changing the properties of the modules already in it, or add new modules for the desired effect. You can also copy emitters and add multiple emitters into a single Niagara system. For an example of this, see the Sparks tutorial.
+* For this we need to look up their defining formulas and translate them into source code. 
+* I would like to guide you through one example for this, as this is a really good exercise to become more familiar with scary looking formulas, which are not scary at all, once you have a closer look.
+* Such existing forces include for example gravity, electromagnetism, friction, tension, elasticity, etc. Now, we want to model a force according to physics of the real world but of course there is still quite some flexibility for our purposes. For which characteristics we are flexible depends on the force and the context. But as always with coding you can just decide on this with testing different values and trail & error (my favorite approach 🙃).
 
 --
-* Modules
+* Anything in between 😁
+
+---
+.header[Creating Forces]
+
+## Physically-Based Forces
+
+Deconstruct a force’s formula into two parts:
 
 ???
   
 
-* In your emitter, you can add existing modules from Niagara by clicking on the Plus (+) of the group where you want to add the module. Niagara comes with a lot of pre-existing modules, and for the majority of circumstances you will be able to create your effects without needing to do any custom module design.
+* When we look up a formula, we always follow the same principle for working with any force, namely that we need to deconstruct the force’s formula into two parts:
 
-However, if you want to create your own modules, it can be helpful to understand how the data flows through a module.
+--
+1. How do we compute the force’s ***direction***?
 
----
-.header[Niagara]
+--
+2. How do we compute the force’s ***magnitude***?
 
-## New Niagara System
 
-.center[<img src="../02_scripts/img/particles/fxs_templates_01.png" alt="fxs_templates_01" style="width:80%;">]
+???
+  
 
----
-.header[Niagara]
-
-## New Niagara System
-
-.center[<img src="../02_scripts/img/particles/fxs_templates_01a.png" alt="fxs_templates_01a" style="width:80%;">]
+* Always keep in mind that forces usually highly depend on the existing velocity of the object we want to apply the force to. So most of the time you need to integrate the object's velocity into the formula of a force. Also, it is always helpful to really understand the overall concept behind a force. What does e.g. tension mean? How does the effect look like? What do we want to do with it?  
 
 ---
-.header[Niagara | The System]
+.header[Creating Forces | Physically-Based Forces]
 
-.center[<img src="../02_scripts/img/particles/fxs_system_01.png" alt="fxs_system_01" style="width:80%;">]
+## Example Air and Fluid Resistance
+
+--
+
+.left-even[
+
+Friction occurs when a body passes through a liquid or gas.  
+  
+<br />
+This force is called a *drag force*.  
+
+]  
+
+.right-even[<iframe width="480" height="480" src="https://editor.p5js.org/legie/full/trK1-4U7S"></iframe> .imgref[[[codingtrain]](https://editor.p5js.org/codingtrain/sketches/5V8nSBOS)]]
+
+
+???
+  
+
+* https://editor.p5js.org/legie/sketches/trK1-4U7S
+
+
+
 
 ---
-.header[Niagara]
+.header[Creating Forces | Physically-Based Forces]
 
-## The System
+## Example Air and Fluid Resistance
 
-.left-quarter[<img src="../02_scripts/img/particles/fxs_system_02.png" alt="fxs_system_02" style="width:100%;">]
+The same force models air resistance for a plane:
+
+.center[<img src="../02_scripts/img/dynamics/forces_01.png" alt="forces_01" style="width:100%;">]  
+ .imgref[[[codingtrain]](https://editor.p5js.org/codingtrain/sketches/5V8nSBOS)]
+
+
+
+???
+  
+
+* .task[https://en.wikipedia.org/wiki/Drag_(physics)]
+*  Ok, let's understand that better.
+
+
+---
+.header[Creating Forces | Physically-Based Forces]
+
+## Example Air and Fluid Resistance
+
+Wikipedia gives you the formula for a drag force as
+
+--
+
+![forces_02](../02_scripts/../02_scripts/img/dynamics/forces_02.png)  
+
+where
+
+--
+* F<sub>D</sub> is the drag force
+
+--
+* 𝞺 (rho) is the density of the fluid
+
+--
+* *v* is the speed of the object
+
+--
+* A is the cross sectional area of the object
+
+--
+* C<sub>D</sub> is the drag coefficient
+
+
+???
+  
+
+---
+.header[Creating Forces | Physically-Based Forces]
+
+## Example Air and Fluid Resistance
+
+![forces_02](../02_scripts/../02_scripts/img/dynamics/forces_02.png)  
+
+What can we understand about the force's direction and magnitude? 
+
+---
+.header[Creating Forces | Physically-Based Forces]
+
+## Example Air and Fluid Resistance
+
+![forces_02](../02_scripts/../02_scripts/img/dynamics/forces_02.png)  
+
+What can we understand about the force's direction and **magnitude**? 
+
+--
+
+* We have a part of $F_D$'s magnitude coming in from *v* as the current speed of the object, meaning the magnitude of the object's velocity
+
+???
+  
+
+* Velocity is equivalent to a specification of an object's speed and direction of motion (e.g. 60 km/h to the north)
+
+--
+* The other factors influence the magnitude as well - to be seen...
+  
+---
+.header[Creating Forces | Physically-Based Forces]
+
+## Example Air and Fluid Resistance
+
+![forces_02](../02_scripts/../02_scripts/img/dynamics/forces_02.png)  
+
+What can we understand about the force's **direction** and magnitude? 
+
+--
+
+* There is no direction. This means that the drag force doesn't change the objects direction
+
+???
+  
+
+* Turning our brains on, we figure out that this mean we have to use the opposite direction of the object's current velocity vector! But we don't want to interfere with the formula with the incoming velocity magnitude (after all the formula comes with its own speed information). Hence, to have a direction, we multiply the formula with the inverse of the incoming unit velocity vector v̂, meaning it has the length of one, only giving us information about the velocity's direction.
+  
+--
+   
+However, we always need to have a direction to apply a force!
+
+
+???
+  
+
+* Turning our brains on, we figure out that this mean we have to use the opposite direction of the object's current velocity vector !
+  
+
+* But we don't want to interfere with the formula with the incoming velocity magnitude (after all the formula comes with its own speed information). Hence, to have a direction, we multiply the formula with the inverse of the incoming unit velocity vector v̂, meaning it has the length of one, only giving us information about the velocity's direction.
+* Ok, now that we have an overall understanding of the force, let's decipher the formula step by step, shall we?
+
+---
+.header[Creating Forces | Physically-Based Forces]
+
+## Example Air and Fluid Resistance
+
+The same force models air resistance for a plane:
+
+.center[<img src="../02_scripts/../02_scripts/img/dynamics/forces_01.png" alt="forces_01" style="width:100%;">]  
+ .imgref[[[codingtrain]](https://editor.p5js.org/codingtrain/sketches/5V8nSBOS)]
+
+
+???
+  
+
+* https://editor.p5js.org/legie/sketches/trK1-4U7S
+
+
+---
+.header[Creating Forces | Physically-Based Forces]
+
+## Example Air and Fluid Resistance
+
+![forces_02](../02_scripts/../02_scripts/img/dynamics/forces_02.png)  
+
+What can we understand about the force's **direction** and magnitude? 
+   
+--
+* The balls slow down and the F<sub>D</sub> is *facing* the airplane
+
+???
+  
+
+* Turning our brains on, we figure out that this mean we have to use the opposite direction of the object's current velocity vector !
+  
+--
+  
+
+> We use the inverse of the incoming unit velocity vector $\hat{v}$, meaning $-\hat{v}$ as direction of the force!
+
+???
+  
+
+* But we don't want to interfere with the formula with the incoming velocity magnitude (after all the formula comes with its own speed information). Hence, to have a direction, we multiply the formula with the inverse of the incoming unit velocity vector v̂, meaning it has the length of one, only giving us information about the velocity's direction.
+* Ok, now that we have an overall understanding of the force, let's decipher the formula step by step, shall we?
+
+
+
+---
+.header[Creating Forces | Physically-Based Forces]
+
+## Example Air and Fluid Resistance
+
+![forces_03](../02_scripts/../02_scripts/img/dynamics/forces_03.png)  
+
+--
+
+* Irrelevant for our make-believe world
+
+
+???
+  
+
+* Factors like that are usually irrelevant for our make-believe worlds as we can set our own values anyways (we are not limited matching e.g. other constants given by nature). Hence, we simply ignore this.
+
+---
+.header[Creating Forces | Physically-Based Forces]
+
+## Example Air and Fluid Resistance
+
+![forces_04](../02_scripts/../02_scripts/img/dynamics/forces_04.png)  
+
+--
+* 𝞺 (rho) is the density of the fluid
+
+--
+* Set it to a constant value of 1
+    * As long as it is not changing over time
+
+
+???
+  
+
+* As wikipedia tells us, this is the density of the liquid. This is also something we normally don’t need to worry about as long as we don’t want to change it over time. We can simplify the problem and consider this to have a constant value of 1.
+
+---
+.header[Creating Forces | Physically-Based Forces]
+
+## Example Air and Fluid Resistance
+
+![forces_05](../02_scripts/../02_scripts/img/dynamics/forces_05.png)  
+
+* Magnitude of the incoming velocity vector, then squared
+
+
+???
+  
+
+* We already identified this as the magnitude of the velocity vector (which is then squared), hence the speed of the object moving.
+
+---
+.header[Creating Forces | Physically-Based Forces]
+
+## Example Air and Fluid Resistance
+
+![forces_06](../02_scripts/../02_scripts/img/dynamics/forces_06.png)  
+
+--
+* *C<sub>D</sub>* stands for the coefficient of drag 
+
+--
+* This is the only constant we’ll keep to determine the strength of the drag force 
+    * And by that also indirectly considering the 1/2 and 𝞺
+
+---
+.header[Creating Forces | Physically-Based Forces]
+
+## Example Air and Fluid Resistance
+
+
+![forces_07](../02_scripts/../02_scripts/img/dynamics/forces_07.png)  
+
+--
+* *A* stands for the frontal area of the object that is pushing through the liquid
+
+--
+* The geometry of the area is usually simplified, e.g. with a sphere or bounding box
+
+--
+* For a basic simulation, we can once again just ignore it.
+
+---
+.header[Creating Forces | Physically-Based Forces]
+
+## Example Air and Fluid Resistance
+
+Now
+
+<br />
+  
+$F_D = \frac{1}{2}\rho v^2 C_D A$
+  
+--
+  
+<br />
+  
+reduces to
+
+--
+  
+<br />
+  
+$F_D = \left\| v \right\|^2 C_D (-\hat{v})$
+
+
+???
+  
+
+* magnitude is speed squared
+* coefficient of drag
+* direction is opposite of current velocity
+
+
+
+---
+.header[Creating Forces | Physically-Based Forces | Example Air and Fluid Resistance]
+
+```java
+//Based on https://natureofcode.com/book/chapter-2-forces/
+//https://editor.p5js.org/legie/sketches/trK1-4U7S
+function dragForce(coefficient, velocity) {
+
+    // Direction of Drag
+    let force = velocity.copy();
+    force.normalize();
+    force.mult(-1);
+    // Magnitude
+    let speed = velocity.mag();
+    force.setMag(coefficient * speed * speed);
+    return force;
+}
+...
+applyForce(force) {
+
+    let f = p5.Vector.div(force, this.mass);
+    this.acc.add(f);
+}
+```
+
+
+???
+  
+
+* https://editor.p5js.org/legie/sketches/trK1-4U7S
+
+
+
+* [live demo in p5](https://editor.p5js.org/codingtrain/sketches/5V8nSBOS)
+*  There is also a [video about the drag force](https://thecodingtrain.com/tracks/the-nature-of-code-2/noc/2-forces/4-drag-force) from him.  
+*  You can also have a look at the  from Dan Shiffman and test different values for the drag coefficient.
+* and a simple implementation in Processing could look like (I like this example for its clarity) the following
+
+---
+.header[Creating Forces | Physically-Based Forces]
+
+## Example Air and Fluid Resistance
+
+.left-quarter[<iframe width="240" height="300" src="https://editor.p5js.org/legie/full/REgNgaAbp"></iframe> .imgref[[[codingtrain]](https://editor.p5js.org/codingtrain/sketches/5V8nSBOS)]]
 
 --
 
 .right-quarter[
+*Why do the smaller objects slow more than the larger objects?*
+]
 
-* Global system parameters, e.g. CPU vs. GPU rendering
+---
+.header[Creating Forces | Physically-Based Forces]
+
+## Example Air and Fluid Resistance
+
+.left-quarter[<iframe width="240" height="300" src="https://editor.p5js.org/legie/full/REgNgaAbp"></iframe> .imgref[[[codingtrain]](https://editor.p5js.org/codingtrain/sketches/5V8nSBOS)]]
+
+.right-quarter[
+*Why do the smaller objects slow more than the larger objects?*
+
+<br />
+
+In this implementation, the balls have a mass related to their size, meaning smaller balls have a smaller mass.
 
 
+<br />
+
+**A = F / M** ⇾ The smaller the mass, the higher the acceleration. 
 ]
 
 
-.footnote[[[Unreal Documentation](https://dev.epicgames.com/documentation/en-us/unreal-engine/overview-of-niagara-effects-for-unreal-engine)]]
+???
+  
 
+* The mass is considered in the example above by the line
+
+```java
+PVector f = PVector.div(force,mass);
+```
+
+* Newton’s second law says *A = F / M* 
+* Hence, the smaller the mass, the higher the acceleration. 
+* In this example, the smaller the mass, the stronger the force affects the object's movement.
 
 
 ???
   
 
-* A Niagara system is a container for everything you will need to build that effect. Inside that system, you may have different building blocks that stack up to help you produce the overall effect.
+* https://natureofcode.com/forces/#modeling-a-force
+* Back to our favorite insight of this chapter, Newton’s second law with *A = F / M*. Hence, we know that acceleration is inversely proportional to mass and with that we know that the smaller the mass, the higher the acceleration. In this example, we compute the force and use that as acceleration. This means that the smaller the mass, "the stronger the force" or better the stronger the force affects the object's movement.
+* If you are further interested in creating your own physically-based forces and working with them, I recommend [Chapter 2. Forces](https://natureofcode.com/book/chapter-2-forces/) in Dan's[ Nature of Code book](https://natureofcode.com/) and his [video series about forces](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZV4yEcW3uDwOgGXKUUsPOM). 
 
-You can modify some system-level behaviors that will then apply to everything in that effect.
 
-* Like emitters, systems work in a stack paradigm, and also work with a Sequencer timeline — which you can use to control how the emitters in the system behave. A system is a container for emitters. The system combines these emitters into one effect. When editing a system in the Niagara Editor, you can modify and override any parameter, module or emitter that is in the system.
-* The Timeline panel in the System Editor shows which emitters are contained in the system, and can be used to manage those emitters.
 
 
-
-
----
-.header[Niagara]
-
-## Emitter
-
-
-.center[<img src="../02_scripts/img/particles/fxs_emitter_01.png" alt="fxs_emitter_01" style="width:100%;">]
-
-
-
----
-.header[Niagara | Emitter]
-
-
-.center[<img src="../02_scripts/img/particles/fxs_emitter_02.png" alt="fxs_emitter_02" style="width:100%;">]
-
-
----
-.header[Niagara | Emitter]
-
-
-.center[<img src="../02_scripts/img/particles/fxs_emitter_05.png" alt="fxs_emitter_05" style="width:100%;">]
-
-
----
-.header[Niagara]
-
-## Emitter
-
-
-.left-quarter[<img src="../02_scripts/img/particles/fxs_emitter_04.png" alt="fxs_emitter_04" style="width:90%;">]
-
---
-.right-quarter[
-Organized in a stack of behaviors]
-
-???
-* What is each category?
-* 
-
----
-.header[Niagara]
-
-## Emitter
-
-
-.left-quarter[<img src="../02_scripts/img/particles/fxs_emitter_03.png" alt="fxs_emitter_03" style="width:90%;">]
-
-.right-quarter[
-* Emitter Spawn: First creation
-* Emitter Update: On each frame
-* Particle Spawn: Called once per particle, when that particle is first born
-* Particle Update: Called once per particle, on each frame 
-* Event Handler: Events to trigger behaviour, e.g. listeners
-* Render: Define the display of the particle
-]
-
-???
-  
-
-The emitter is organized in a stack. Inside that stack is several groups, inside which you can put modules that accomplish individual tasks. The groups are as follows.
-
-
-* Emitters are where particles are generated in a Niagara system. An emitter controls how particles are born, what happens to that particles as they age, and how the particles look and behave.
-* Emitter Spawn
-    * This group defines what happns when an emitter is first created on the CPU. Use this group to define initial setups and defaults.
-* Emitter Update
-    * This group defines emitter-level modules that occur every frame on the CPU. Use this group to define spawning of particles when you want them to continue spawning on every frame.
-* Particle Spawn
-    * This group is called once per particle, when that particle is first born. This is where you will want to define the initialization details of the particles, such as the location where they are born, what color they are, their size, and more.
-* Particle Update (everything that affects particles over time)
-    * This group is called per particle on each frame. You will want to define here anything that needs to change frame-by-frame as the particles age. For example, if the color of the particles is changing over time. Or, if the particles are affected by forces like gravity, curl noise, or point attraction. You may even want the particles to change size over time.
-* Event Handler
-    * In the Event Handler group, you can create Generate events in one or more emitters that define certain data. Then you can create Listening events in other emitters which trigger a behavior in reaction to that generated event.
-* Render
-    * The last group is the Render group. This is where you define the display of the particle and set up one or more renderers for your particles. You may want to use a Mesh renderer if you want to define a 3D model as the basis of your particles, upon which you could apply a material. Or, you may want to use a sprite renderer and define your particles as 2D sprites. There are many different renderers to choose from and experiment with.
-
-
-* Within each group, there may be multiple stages, which are called at particular points in a system's life cycle. Emitters, systems, and particles all have Spawn and Update stages by default. Spawn stages are invoked in the first frame where that group exists. For example, systems invoke their Spawn stage when the system is first instantiated in the level and activated. Particles invoke their Spawn stage whenever the emitter emits a particle, and Spawn instructions will be executed for each new particle that is created. Update stages are invoked in every frame where the system, emitter or particle is active.
-
----
-.header[Niagara | Emitter]
-
-## Modules
-
-
-.left-quarter[<img src="../02_scripts/img/particles/fxs_modules_01.png" alt="fxs_modules_01" style="width:100%;">]
-
-
----
-.header[Niagara | Emitter]
-
-## Modules
-
-
-.left-quarter[<img src="../02_scripts/img/particles/fxs_modules_02.png" alt="fxs_modules_02" style="width:100%;">]
-
---
-
-.right-quarter[
-* Processed sequentially from top to bottom
-
-]
-
-
-
-???
-  
-
-* Modules are the basic building blocks of effects in Niagara. You add modules to groups to make a stack. Modules are processed sequentially from top to bottom.
-* You can think of a module as a container for doing some math. You pass some data into the module, then inside the module you do some math on that data, and then you write that data back out at the end of the module.
-* Modules are built using High-Level Shading Language (HLSL), but can be built visually in a Graph using nodes. You can create functions, include inputs, or write to a value or parameter map. You can even write HLSL code inline, using the CustomHLSL node in the Graph.
-* You can double-click any module from an emitter in Niagara to take a look at the math that's happening inside. You can even copy and create your own modules. For example, if you double-click on the Add Velocity module to take a look inside, you can inspect the data flow.
-
-* Particle simulation in Niagara conceptually operates as a stack — simulation flows from the top of the stack to the bottom, and executes modules in order. Crucially, every module is assigned to a group that describes when the module is executed. For example, modules that initialize particles or that act when a particle spawns are in the Particle Spawn group.
-
-* Emitters work in a stack paradigm—they serve as containers for modules, and can stack together to create various effects. An emitter is single-purpose, but it is also reusable. Parameters transfer up to the emitter level from modules, but you can modify modules and parameters in the emitter.
-
-* Show add velocity node?
-
-
----
-.header[Niagara | Emitter]
-
-## Renderer
-
-
-.left-quarter[<img src="../02_scripts/img/particles/fxs_renderer_01.png" alt="fxs_renderer_01" style="width:100%;">]
-
-
-
----
-.header[Niagara | Emitter]
-
-## Renderer
-
-
-.left-quarter[<img src="../02_scripts/img/particles/fxs_renderer_02.png" alt="fxs_renderer_02" style="width:100%;">]
-
-
-.right-quarter[
-* Sprites
-* Meshes
-
-]
-
-
-
-
-
----
-.header[Niagara]
-
-## Parameter
-
-.left-quarter[<img src="../02_scripts/img/particles/niagara_03a.png" alt="niagara_03a" style="width:100%;">]
-
-
-
---
-
-.right-quarter[
-* Abstraction of data
-* Exposes system, emitter, particle, and engine-provided attributes
-* Drag & Drop-able
-
-.footnote[[[Unreal Documentation](https://dev.epicgames.com/documentation/en-us/unreal-engine/overview-of-niagara-effects-for-unreal-engine)]]
-
-]
-
-
-???
-  
-
-* Parameters are an abstraction of data in a Niagara simulation. Parameter types are assigned to a parameter to define the data that parameter represents. There are four types of parameters:
-
-    * Primitive: This type of parameter defines numeric data of varying precision and channel widths.
-    * Enum: This type of parameter defines a fixed set of named values, and assumes one of the named values.
-    * Struct: This type of parameter defines a combined set of Primitive and Enum types.
-    * Data Interfaces: This type of parameter defines functions that provide data from external data sources. This can be data from other parts of UE4, or data from an outside application.
-* This panel lists all the user exposed, system, emitter, particle, and engine-provided parameters (also called attributes) that are used by the active emitter or system.
-* From the Parameters panel, you can drag and drop parameters to any appropriate node in the System Overview, or to any appropriate module parameter in the Selection panel. The number of times a parameter is referenced is shown on the right, enabling you to spot errors and make decisions on how to change your variables. If you have other emitters open, this panel pulls in data from those open emitters. This enables the user to share data between emitters. The Namespace for a parameter is displayed with a prominent icon, and you can see a tooltip that explains that Namespace when you mouse over the icon. To see more advanced Namespaces, such as parameter collections, click the Eye icon next to the Search bar.
-
-
----
-template:inverse
-
-# Hands On!
 
 ---
 template:inverse

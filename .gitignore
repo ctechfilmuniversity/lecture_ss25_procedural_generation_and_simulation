@@ -1,4 +1,2 @@
 *.DS_Store
 .gitignore
-docs/01_sessions/*
-docs/03_slides/*
