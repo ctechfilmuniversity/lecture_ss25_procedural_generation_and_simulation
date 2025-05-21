@@ -22,5 +22,4 @@ Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de \
     * [In Class Tutorial Dynamics - Notes](../01_sessions/04_noise_dynamics/notes_inclass_dynamics/notes_inclass_dynamics.md)
 * [Lecture 08](pgs_08_slides.html)
 * [Lecture 09](pgs_09_slides.html) 
-* [Lecture 10](pgs_10_slides.html) 
   
