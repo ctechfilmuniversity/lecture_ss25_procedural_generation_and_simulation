@@ -47,6 +47,7 @@ nav_exclude: true
 pseudo-code
 
 > angles expressed as radians (45°, 135°, 225°, 315°)
+
 ```
 max_level = 4
 initial_length = 4
@@ -59,12 +60,13 @@ function branch(start_x, start_y, angle, length, level):
   end_y = start_y + sin(angle) * length
 
   draw_line(start_x, start_y, end_x, end_y)
-  
+
   if level < max_level:
     next_length = initial_length / (level + 1)
     for split in [-1/4π, 1/4π]:
       branch(end_x, end_y, angle + split, next_length, level + 1)
 ```
+
 > in a way a fractal (as we saw with mandelbrot) where the result of the previous calculation is recursively input into the next
 
 ### Task 01.04 - Seeing Faces
@@ -107,17 +109,32 @@ Even though I consider most of the shader projects by [Arsiliath](https://www.in
 
 ### Task 01.06 - First Steps
 
-Since `01.08` requires a thorough understanding of the _Multiplication On A Circle With Modulo_ scene and I have no prior experience with Unreal, I decided to complete the accompanying [tutorial](../../../01_sessions/01_numbers/pgs_tutorial_multicircle/pgs_tutorial_multicircle.md).
+Since `01.07` requires a thorough understanding of the _Multiplication On A Circle With Modulo_ scene and I have no prior experience with Unreal, I decided to complete the accompanying [tutorial](../../../01_sessions/01_numbers/pgs_tutorial_multicircle/pgs_tutorial_multicircle.md).
 
 While I was able to complete the tutorial, I must say that the controls on Mac (with trackpad only) are close to impossible to use. Despite my hardware being adequate (8GB GPU, Intel i9 CPU, 64GB RAM) this application was clearly not built with laptop (older MacBook in particular) users in mind: Movement is slow and laggy, the ui constantly loses focus when switching windows and even in an almost empty scene things are getting hot and the fans start spinning. For future tasks I will either use university machines or switch to an alternative like Blender or Godot.
 
-![](./img/01-08-circle-tutorial.png)
+![](./img/01-06-circle-tutorial.png)
 
 ## Beauty in Maths
 
 ### Task 01.07 - Multiplication On A Circle With Modulo In Unreal
 
-- [ ] deadline for this task: July 31st.
+I completed the tutorial myself (see `01.06`) but was completing this task on a university machine, so I based my result here on the completed project file.
+
+At first I extracted the logic to create a point on the 2D circle into a custom function and added a T parameter to offset the position on the circle dynamically.
+
+![](./img/01-07-abstracted-function.png)
+
+Secondly, in order to be able to animate I had to change the logic a bit: The construction script still does pretty much the same but writes the result of (inital spline meshes) into an array variable. In the `Event Tick` I can then use this to animate the positions of my points on the circle.
+
+![](./img/01-07-constructor.png)
+![](./img/01-07-tick-loop.png)
+
+> The `T` parameter is offset differently for the end point of each SplineMesh (index based) to introduce variance in the animation
+
+[![](./img/01-07-result.gif)](https://owncloud.gwdg.de/index.php/s/2ir91gGRAKGcEec)
+
+> The final result after adding post processing, fog and a simple camera animation (click image to open full video on OwnCloud)
 
 ## Learnings
 
