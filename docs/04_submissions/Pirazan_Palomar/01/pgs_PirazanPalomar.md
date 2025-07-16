@@ -77,6 +77,21 @@ This is the tutorial I did. It is called: **_"Unreal Engine 5 Beginner Tutorial 
  Here my screenshot:
  ![alt text](https://github.com/ctechfilmuniversity/lecture_ss25_procedural_generation_and_simulation/blob/88979ff9c98d44a3dcecc08f0d061670e171ce06/docs/04_submissions/Pirazan_Palomar/01/img/7_unreal.png)
 
+# Beauty in Maths 
+## Task 01.07 - Multiplication On A Circle With Modulo In Unreal 
+![alt text](https://github.com/ctechfilmuniversity/lecture_ss25_procedural_generation_and_simulation/blob/9f109c10fc96c40194066530139643d1b9ee4e50/docs/04_submissions/Pirazan_Palomar/01/img/001.png)
+
+![alt text](https://github.com/ctechfilmuniversity/lecture_ss25_procedural_generation_and_simulation/blob/9f109c10fc96c40194066530139643d1b9ee4e50/docs/04_submissions/Pirazan_Palomar/01/img/002.png)
+
+![alt text](https://github.com/ctechfilmuniversity/lecture_ss25_procedural_generation_and_simulation/blob/9f109c10fc96c40194066530139643d1b9ee4e50/docs/04_submissions/Pirazan_Palomar/01/img/003.png)
+
+![alt text](https://github.com/ctechfilmuniversity/lecture_ss25_procedural_generation_and_simulation/blob/9f109c10fc96c40194066530139643d1b9ee4e50/docs/04_submissions/Pirazan_Palomar/01/img/004.png)
+
+![alt text](https://github.com/ctechfilmuniversity/lecture_ss25_procedural_generation_and_simulation/blob/9f109c10fc96c40194066530139643d1b9ee4e50/docs/04_submissions/Pirazan_Palomar/01/img/005.png)
+
+![alt text](https://github.com/ctechfilmuniversity/lecture_ss25_procedural_generation_and_simulation/blob/9f109c10fc96c40194066530139643d1b9ee4e50/docs/04_submissions/Pirazan_Palomar/01/img/006.png)
+
+
 # Learnings
 ## Task 01.08
 **_Summarize your learnings (text or bullet points - whatever you prefer but you must use whole sentences). What was challenging for you in this session? How did you challenge yourself?_**
