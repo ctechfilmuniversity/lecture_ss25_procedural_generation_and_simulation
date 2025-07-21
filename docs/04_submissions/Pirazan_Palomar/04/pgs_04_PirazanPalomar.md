@@ -29,7 +29,9 @@ This is a screenshot, but I totally recomment watching the video, since it shows
 
 
 ![Here you can find my final video in all its glory!](https://owncloud.gwdg.de/index.php/s/nqLTEZ6YmCdyDga)
-__
+
+
+--
 
 # Final Project
 # Task 04.03 - Project Ideas
