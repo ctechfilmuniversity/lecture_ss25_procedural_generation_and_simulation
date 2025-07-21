@@ -21,7 +21,16 @@ nav_exclude: true
 __
 
 # Task 03.03
+**_Complete Tutorial Fancy Cubes. Try to make some changes to the result to make it your own. In the end, you must have a good looking result! This time, you also have to create a rendering from the scene. For that you can use the Tutorial Rendering (the section about Postprocessing Effects is optional for additional stylization)._**
+**_Submission: At least one preview image and one animation, e.g. as gif, of your scene, linked in your markdown submission file._**
+
 ![alt text](https://github.com/ctechfilmuniversity/lecture_ss25_procedural_generation_and_simulation/blob/a3cdf3566b522968257c735bbb3ac4aef3eb8d06/docs/04_submissions/Pirazan_Palomar/04/img/In%20Arbeit_.png)
+
+This is a screenshot, but I totally recomment watching the video, since it shows my results with the cmera movements and the post production tweaks.
+![alt text](https://github.com/ctechfilmuniversity/lecture_ss25_procedural_generation_and_simulation/blob/fd2cb17d3271b113bda45fe312071f918d8673df/docs/04_submissions/Pirazan_Palomar/04/img/Screenshot_cubes_DLPP.png)
+
+
+![**Here you can find my final video in all its glory!**](https://owncloud.gwdg.de/index.php/s/nqLTEZ6YmCdyDga)
 __
 
 # Final Project
@@ -33,4 +42,5 @@ __
 
 # Learnings
 # Task 04.04
-I am still working on the tutorial, but I had the chance to learn about the new possibilities that we have with UNreal and also the complexity of the node work flows. That was the challenging part, but I am looking forward to learning more about this. 
+**_Summarize your learnings (text or bullet points - whatever you prefer). What was challenging for you in this session? How did you challenge yourself?_**
+This was a very challenging topic, but with the help of the cubes and the rendering tutorial was easier to follow and do it. I learned how to create instances of the blueprint class, the creation of locators and the way the event graph can be used to integrate the event sequence of a project:: To start the split and to spawn the cubes. Additionally I also leaned how to work with externally edditable variables, the physics simulation and the better ways to optimize the performance. Particularly interesting was the topic of material instancing, which allows to change some aspects of the work without compiling and the use of parameters. Finally I got the hang of the Niagara system and the renderization process, which reminded me of my background on edition, camera and film, since I was programming how to move the camera and the better way of showing the result. The most challenging for me was to understand all the input and use it to crate my own, I definetely want to continue learning and practicing and also finding ways of connecting this virtual worlds with the "real" world.
