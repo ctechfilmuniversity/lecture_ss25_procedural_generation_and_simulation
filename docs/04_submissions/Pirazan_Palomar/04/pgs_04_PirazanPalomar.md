@@ -28,7 +28,7 @@ This is a screenshot, but I totally recomment watching the video, since it shows
 ![alt text](https://github.com/ctechfilmuniversity/lecture_ss25_procedural_generation_and_simulation/blob/fd2cb17d3271b113bda45fe312071f918d8673df/docs/04_submissions/Pirazan_Palomar/04/img/Screenshot_cubes_DLPP.png)
 
 
-![**Here you can find my final video in all its glory!**](https://owncloud.gwdg.de/index.php/s/nqLTEZ6YmCdyDga)
+![Here you can find my final video in all its glory!](https://owncloud.gwdg.de/index.php/s/nqLTEZ6YmCdyDga)
 __
 
 # Final Project
