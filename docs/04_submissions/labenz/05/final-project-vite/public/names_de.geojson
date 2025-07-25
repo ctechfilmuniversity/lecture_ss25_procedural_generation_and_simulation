@@ -1,0 +1,83 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Limassol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.0332657,
+          34.6852901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Famagusta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.9387919,
+          35.1205261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kyrenia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3205287,
+          35.3396291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nikosia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3638783,
+          35.1746503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Larnaka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.6236184,
+          34.9236095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Paphos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.4231586,
+          34.7743988
+        ]
+      }
+    }
+  ]
+}
