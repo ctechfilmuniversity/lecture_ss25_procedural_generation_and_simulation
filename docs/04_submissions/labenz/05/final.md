@@ -180,8 +180,10 @@ First version of the shader, without basemap and parameter fine-tuning.
 
 ![Cover](./cover.png)
 
-## Watch Video
-[Go to Video](./screencast.mp4)
+## Video
+
+https://github.com/user-attachments/assets/ff1f4ce1-823f-4eb5-9915-c30691f6afdb
+
 
 ## Source Code
 Big files are not included in the folder, so the code can not be run directly.
