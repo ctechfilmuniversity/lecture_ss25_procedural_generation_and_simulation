@@ -79,6 +79,9 @@ I used the Cesium plugin in Unreal to incorporate geodata.
 
 Here, the formal aesthetics of _fungi_ are used to create a world and tell a story. One can clearly see how through shapes, colors, light, and shadow not only an atmosphere is created, but also how motifs from the series like the two main characters, cities, or landscapes can be represented in abstracted, alienated forms.
 
+# Task 01.07
+![Multiplication On A Circle With Modulo In Unreal](./img/modulo.png)
+
 # Task 01.08
 
 I didn't understand all aspects of the mathematics, as I haven't used some of it for over 10 years.
