@@ -47,7 +47,6 @@ The result is a mountainous 3D visualization where users can navigate using Thre
 
 ![Project picture 1](./img/joburg_inequality_1.png)
 ![Project picture 2](./img/joburg_inequality_2.png)
-![Project picture 3](./img/joburg_inequality_3.png)
 ![Project picture 3](./img/key_joburg.png)
 
 - **Project Reflection & Discussion**
