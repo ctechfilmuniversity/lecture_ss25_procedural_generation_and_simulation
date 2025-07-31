@@ -37,7 +37,7 @@ This is a screenshot of the result, but please go ahead and download the shortfi
 
 ![alt text](https://github.com/ctechfilmuniversity/lecture_ss25_procedural_generation_and_simulation/blob/29f9ef00df3c308050928611457fbc2d597b3594/docs/04_submissions/Pirazan_Palomar/05/img/Orchid-tree.png)
 
-[Here you can watch/download **_The orchid tree_**](https://owncloud.gwdg.de/index.php/s/nqLTEZ6YmCdyDgahttps://owncloud.gwdg.de/index.php/s/qdmjeDKK1HP2ys4)
+[Here you can watch/download **_The orchid tree_**](https://owncloud.gwdg.de/index.php/s/qdmjeDKK1HP2ys4)
 
 
 ### *Project Reflection & Discussion*
