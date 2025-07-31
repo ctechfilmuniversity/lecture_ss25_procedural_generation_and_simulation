@@ -8,7 +8,7 @@ nav_exclude: true
 
 ### **Task 05.01 - Johannesburg Population Density Map**
 
-You can find my final project in [this](https://github.com/imogendrews/johannesburg_population/tree/main) GitHub repository. To run the code use npx vite, for some reason the npm script didn’t work for me. You can read more about the background of my project on the website itself.
+You can find my final project in [this](https://github.com/imogendrews/johannesburg_population/tree/main) GitHub repository. To run the code use npx vite, for some reason the npm script didn’t work for me. You can read more about the background of my project on the website itself. You can watch a short video of the website [here](https://owncloud.gwdg.de/index.php/s/vQ5iRNPjdBGo3gI).
 
 - **Summary**
 
