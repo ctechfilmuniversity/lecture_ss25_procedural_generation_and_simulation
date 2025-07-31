@@ -17,7 +17,7 @@ Based on Arsiliath's [webgpu agents tutorial](https://arsiliath.gumroad.com/l/we
 ![](./img/physarum-teaser.gif)
 > physarum simulation
 
-[open private repository (requires invatation acceptance)](https://whatphilipcodes.github.io/pgs/)
+[open private repository (requires invitation acceptance)](https://github.com/whatphilipcodes/pgs)
 
 ---
 
