@@ -16,7 +16,9 @@ For my final project, I created a heightmap-based population data visualization 
 
 I was inspired by Simon Sherrer’s series of heightmap-based population visualizations of various European countries. Below is an example of his work:
 
-![Simon Sherrer's population visualisation](./img/germany_hightmap.png)
+<p align="center">
+<img src="./img/germany_hightmap.png" alt="Simon Sherrer's population visualisation" width="300" />
+</p>
 
 This project is also an example of procedural generation in general since I wrote the code to generate the visualization, then fed it the population data, allowing the program to determine the final form. While I made some aesthetic adjustments along the way, the "mountain range" itself was generated directly by the code using the data—it wasn't something I sculpted manually.
 
