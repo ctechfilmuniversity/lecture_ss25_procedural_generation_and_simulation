@@ -203,3 +203,40 @@ I think the final product turned out well and demonstrates how far you can push 
 - Dealing with limitations of map libraries in shader animations
 - Georeferencing of renderings
 - Practice in implementing GLSL shaders
+
+Here's your submission with optimized spelling and grammar:
+
+# Task 05.02 - Feedback
+
+- How would you rate the difficulty of this lecture from 1 (far too easy) to 5 (far too difficult)?
+3
+- How would you rate the amount of work you had to put into this lecture so far from 1 (no work at all) to 5 (far too much work)?
+4
+- How well did the given time estimates for each session match the time you needed to complete the session?
+Good
+- What do you think about Unreal as tool to learn for a CTech student? Is it valuable?
+I think it's very valuable because it covers many aspects you need in CTech. I personally have more use for WebGL, so I used that more. It was definitely good to have the option to choose the environment yourself.
+- What do you think about Unreal as a tool for this class? I am fully aware that the Unreal exercises do not yet fully connect to the theoretical topics, try to answer this question also regarding whether you could imagine that Unreal exercises could potentially fit well to the theory.
+If the goal of the exercise is to understand a theoretical concept, I found Unreal sometimes not optimal, since the properties of Unreal were harder to understand than the actual theory. But if you want to learn Unreal anyway, it's certainly a good approach.
+- Do you have any other ideas regarding which tools and software packages to use for this class?
+Not really.
+- Do you have any useful hints to pass on to future students, e.g. utility tools, or further resources?
+At first I was missing a use case for shaders that didn't need hardcore shader knowledge. For me, it was helpful to have a simple use case that I could understand and then build on, like custom layers in maps. That motivated me to learn more.
+- What is your opinion regarding practical exercises in class? Do you think it would be helpful to substitute some of the theory parts with doing e.g. an Unreal exercise in class (there can be no additional time for the class though, it is "either…or")?
+- Which one was your favorite chapter, and which one was your least favorite?
+I liked the noise part most because it is something used very often, but I didn't know the theory. My least favorite part was the photography of the textures because we did this a lot in bachelor's.
+- Was there a topic missing and if so which one?
+Maybe more real use cases for our knowledge.
+
+# Task 05.03
+Does it make sense for you
+
+- …to have procedural generation in your set of skills? If yes,
+with which tool do you want to work with?
+3D Maps, e.g. for my paper
+- which outputs / designs / setups are you aiming for?
+Interactive web applications
+- …to have Unreal in your set of skills? If yes,
+- which Unreal topic do you want to look into next?
+- which outputs / designs / setups are you aiming for?
+For now, no.
