@@ -12,13 +12,7 @@ You can find my final project in [this](https://github.com/imogendrews/johannesb
 
 - **Summary**
 
-For my final project, I created a heightmap-based population data visualization of Johannesburg. The lecture topic my project relates to is ‘abstraction’, which we explored in Session 1. I wanted to take population data—typically presented in tables or standard graphs—and transform it into something more artistic. The goal was to speak not only to the logical mind but also to the empathetic one.
-
-I was inspired by Simon Sherrer’s series of heightmap-based population visualizations of various European countries. Below is an example of his work:
-
-<p align="center">
-<img src="./img/germany_hightmap.png" alt="Simon Sherrer's population visualisation" width="300" />
-</p>
+For my final project, I created a heightmap-based population data visualization of Johannesburg. The lecture topic my project relates to is ‘abstraction’, which we explored in Session 1. I wanted to take population data—typically presented in tables or standard graphs—and transform it into something more artistic. The goal was to speak not only to the logical mind but also to the empathetic one. I was inspired by Simon Sherrer’s series of heightmap-based population visualizations of various European countries.
 
 This project is also an example of procedural generation in general since I wrote the code to generate the visualization, then fed it the population data, allowing the program to determine the final form. While I made some aesthetic adjustments along the way, the "mountain range" itself was generated directly by the code using the data—it wasn't something I sculpted manually.
 
