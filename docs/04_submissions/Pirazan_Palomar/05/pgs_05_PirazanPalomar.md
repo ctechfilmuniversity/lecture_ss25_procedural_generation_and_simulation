@@ -1,3 +1,9 @@
+---
+layout: default
+title: Homework
+nav_exclude: true
+---
+
 # Final Project
 by: David Leonardo Pirazán Palomar
 
