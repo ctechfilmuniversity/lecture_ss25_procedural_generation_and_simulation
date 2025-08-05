@@ -73,6 +73,8 @@ I created a new Blueprint Actor from scratch, aiming to address the weaknesses o
 
 <img src=img/moduloVisual.png width="600">
 <img src=img/newSetup.png width="600">
+<img src=img/moduloCircle_Variables.png width="600">
+
 
 
 ### Task 01.08 - Learnings
