@@ -61,12 +61,18 @@ I followed [this tutorial](https://www.youtube.com/watch?v=NwdUdaotzNA) on creat
 
 ### Task 01.07 - Multiplication On A Circle With Modulo In Unreal
 
+I created a new Blueprint Actor from scratch, aiming to address the weaknesses of the original setup. The improved version includes the following features:
 
-Deadline for this task: July 31st.
+- **Optimised performance** by using Hierarchical Instanced Static Meshes (HISMs)
+- **Support for different meshes**, allowing greater flexibility
+- **Additional variables** for creative experimentation, including material settings and scaling options
+- **Fully animatable**, with two toggleable variables that control runtime animation:
+  - One animates the modulo variable  
+  - The other animates the count variable
+- **Thoroughly commented** for clarity and future reuse
 
-Adjust the final scene of Tutorial 1: Multiplication On A Circle With Modulo and come up with your own visual. It is up to you, whether you build the scene from scratch (which for sure would be the better learning experience) or if you work with the completed scene directly.
-
-Submission: At least one preview image (for now screenshots are just fine), linked in your markdown submission file.
+<img src=img/moduloVisual.png width="600">
+<img src=img/newSetup.png width="600">
 
 
 ### Task 01.08 - Learnings
